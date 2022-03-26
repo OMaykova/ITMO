@@ -1,6 +1,8 @@
 # Practicum-team-project
-Репозиторий для коммандной работы
+
+Репозиторий для командной работы
 
 
 ## Authors
 [Юрлова Виктория](https://github.com/yurlovaviktoriya);
+=======
