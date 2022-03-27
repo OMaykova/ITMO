@@ -4,5 +4,7 @@
 
 
 ## Authors
-[Юрлова Виктория](https://github.com/yurlovaviktoriya);
+- [Юрлова Виктория](https://github.com/yurlovaviktoriya);
+- [Гилева Александра](https://github.com/agilyova);
+
 =======
