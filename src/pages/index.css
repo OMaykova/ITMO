@@ -2,3 +2,21 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/carousel/carousel.css);
+@import url(../blocks/carousel/__button/carousel__button.css);
+@import url(../blocks/carousel/__track/carousel__track.css);
+
+
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__title/publications__title.css);
+@import url(../blocks/publications/__cards-list/publications__cards-list.css);
+@import url(../blocks/publications-card/publications-card.css);
+@import url(../blocks/publications-card/__info/publications-card__info.css);
+@import url(../blocks/publications-card/__image/publications-card__image.css);
+@import url(../blocks/publications-card/__title/publications-card__title.css);
+@import url(../blocks/publications-card/__subtitle/publications-card__subtitle.css);
+@import url(../blocks/publications-card/__text/publications-card__text.css);
+@import url(../blocks/publications-card/__share/publications-card__share.css);
+@import url(../blocks/publications-card/__link/publications-card__link.css);
+@import url(../blocks/publications-card/__link-read-img/publications-card__link-read-img.css);
