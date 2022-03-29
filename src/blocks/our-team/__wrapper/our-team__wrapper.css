@@ -1,0 +1,9 @@
+.our-team__wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 30px;
+    overflow: hidden;
+    max-width: 1110px;
+    margin: 0 auto;
+
+}

@@ -6,8 +6,15 @@
 @import url(../blocks/carousel/carousel.css);
 @import url(../blocks/carousel/__button/carousel__button.css);
 @import url(../blocks/carousel/__track/carousel__track.css);
+@import url(../blocks/carousel/__arrow/carousel__arrow.css);
+
+/*NO-LIST-STYLE================================================================*/
+@import url(../blocks/no-list-style/no-list-style.css);
+/*=============================================================================*/
+@import url(../blocks/carousel/__button/_blue/carousel__button_background_blue.css);
 
 
+/*PUBLICATION==================================================================*/
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publications/__title/publications__title.css);
 @import url(../blocks/publications/__cards-list/publications__cards-list.css);
@@ -20,3 +27,17 @@
 @import url(../blocks/publications-card/__share/publications-card__share.css);
 @import url(../blocks/publications-card/__link/publications-card__link.css);
 @import url(../blocks/publications-card/__link-read-img/publications-card__link-read-img.css);
+/*=============================================================================*/
+
+
+/*OURTEAM======================================================================*/
+@import url(../blocks/our-team/our-team.css);
+@import url(../blocks/our-team/__container/our-team__container.css);
+@import url(../blocks/our-team/__card/our-team__card.css);
+@import url(../blocks/our-team/__description/our-team__description.css);
+@import url(../blocks/our-team/__image/our-team__image.css);
+@import url(../blocks/our-team/__name/our-team__name.css);
+@import url(../blocks/our-team/__title/our-team__title.css);
+@import url(../blocks/our-team/__wrapper/our-team__wrapper.css);
+/*=============================================================================*/
+@import url(../blocks/publications/_our-team/publications__cards-list_type_our-team.css);
