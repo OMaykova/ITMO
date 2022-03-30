@@ -1,0 +1,9 @@
+.about-us__card{
+    width: 348px;
+    /* height: 340px; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 30px 20px;
+    background-color: #E0F0FF;
+    border-radius: 10px;
+}
