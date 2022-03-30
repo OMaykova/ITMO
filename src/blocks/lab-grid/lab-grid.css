@@ -1,0 +1,6 @@
+.lab-grid {
+  display: grid;
+  grid-template-columns: 540px 1fr;
+  column-gap: 30px;
+  row-gap: 80px;
+}
