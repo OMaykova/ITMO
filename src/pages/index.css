@@ -18,6 +18,17 @@
 @import url(../blocks/lab/__content/lab__content.css);
 @import url(../blocks/lab/__title/lab__title.css);
 @import url(../blocks/lab-grid/lab-grid.css);
+@import url(../blocks/content/__paragraph/content__paragraph.css);
+@import url(../blocks/content/__paragraph/_type/_bold/content__paragraph_type_bold.css);
+@import url(../blocks/lab/__photo/lab__photo.css);
+@import url(../blocks/lab/__cards/lab__cards.css);
+@import url(../blocks/lab-card/lab-card.css);
+@import url(../blocks/lab-card/__content/lab-card__content.css);
+@import url(../blocks/lab-card/__title/lab-card__title.css);
+@import url(../blocks/lab-card/__icon/lab-card__icon.css);
+@import url(../blocks/lab-card/_paragraph/lab-card__paragraph.css);
+@import url(../blocks/lab-card/__button/lab-card__button.css);
+
 
 /*PUBLICATION==================================================================*/
 @import url(../blocks/publications/publications.css);
