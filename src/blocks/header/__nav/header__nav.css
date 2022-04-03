@@ -1,0 +1,12 @@
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__nav {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    }
+  }

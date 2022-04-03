@@ -13,6 +13,24 @@
 /*=============================================================================*/
 @import url(../blocks/carousel/__button/_blue/carousel__button_background_blue.css);
 
+/*HEADER==================================================================*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__item/_active/header__item_active.css);
+@import url(../blocks/header/__burger/header__burger.css);
+/*=============================================================================*/
+
+/*LEAD==================================================================*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__background/lead__background.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__button/lead__button.css);
+/*=============================================================================*/
 
 /*PUBLICATION==================================================================*/
 @import url(../blocks/publications/publications.css);

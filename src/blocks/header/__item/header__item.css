@@ -1,0 +1,26 @@
+.header__item {
+    margin: 0 20px 0 0;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 12px;
+    visibility: visible;
+}
+
+.header__item:last-child {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 1380px) {
+    .header__item {
+      margin: 0 10px 0 0;
+    }
+  }
+
+ 
+  @media screen and (max-width: 1024px) {
+    .header__item {
+        visibility: collapse;
+        width: 0px;
+        height: 0px;
+    }
+  }
