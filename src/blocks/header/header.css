@@ -12,7 +12,7 @@
   @media screen and (max-width: 1024px) {
     .header {
       height: 60px;
-      padding: 0 41px;
+      padding: 0 40px;
       flex-direction: row-reverse;
       justify-content: flex-end;
     }

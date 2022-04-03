@@ -1,17 +1,26 @@
 .lead__background{
     width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 740px;
-   
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
+    min-height: 670px;
     text-decoration: none;
-    position: relative;
-    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    max-width: 1440px;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__background {
+        max-width: 1024px;
+        min-height: 648px;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .lead__background {
+        max-width: 767px;
+        min-height: 414px;
+    }
+  }

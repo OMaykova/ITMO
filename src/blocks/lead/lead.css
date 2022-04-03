@@ -1,3 +1,20 @@
 .lead{
-    background-image: url(../../images/header/Background\ image.jpg);
+    background-image: url(../../images/header/Background.png);
+    max-width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead {
+      max-width: 1024px;
+      transform: scale(-1, 1)
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+    .lead {
+      max-width: 767px;
+    }
+  }
