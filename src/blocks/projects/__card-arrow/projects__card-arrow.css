@@ -1,0 +1,20 @@
+.projects__card-arrow {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-image: url('../../../images/arrow-to-right.svg');
+  border: none;
+  padding: 0;
+  background-position: center;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  transition: opacity .2s linear;
+
+  align-self: flex-end;
+}
+
+.projects__card-arrow:hover {
+  cursor: pointer;
+  opacity: .6;
+}

@@ -1,0 +1,10 @@
+.projects__wrapper {
+  width: 100%;
+  margin-top: 80px;
+  margin-left: calc((100% - 1100px)/2);
+  margin-right: calc((100% - 1100px)/2);
+  margin-bottom: 61px;
+
+  display: flex;
+  flex-direction: column;
+}

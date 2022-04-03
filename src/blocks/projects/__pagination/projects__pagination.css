@@ -1,0 +1,16 @@
+.projects__pagination {
+  width: 1110px;
+  margin-top: 31px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
