@@ -1,0 +1,11 @@
+.communication__grid {
+  display: grid;
+  max-width: 1114px;
+  height: 140px;
+  grid-template-columns: 352px 352px 352px;
+  grid-template-rows: 60px 60px;
+  column-gap: 30px;
+  row-gap: 20px;
+  padding-top: 60px;
+  padding-bottom: 38px;
+}

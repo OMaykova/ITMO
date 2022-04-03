@@ -1,0 +1,12 @@
+.partners__logo-zone {
+  width: 1110px;
+  background-color: #001337;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__logo-zone:first-of-type {
+  padding-bottom: 50px;
+  padding-top: 100px;
+}

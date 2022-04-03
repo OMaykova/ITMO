@@ -1,0 +1,16 @@
+.communication__btn-submit {
+  width: 350px;
+  height: 60px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  background: #009FAC;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.67;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}

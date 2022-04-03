@@ -1,0 +1,8 @@
+.partners {
+  background-color: #001337;
+  height: 988px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.communication__title {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.89;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #009FAC;
+  max-width: 328px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 38px;
+}

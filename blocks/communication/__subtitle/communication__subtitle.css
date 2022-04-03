@@ -1,0 +1,12 @@
+.communication__subtitle {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  background: #009FAC;
+  max-width: 920px;
+  margin: 0;
+}

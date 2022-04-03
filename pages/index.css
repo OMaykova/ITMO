@@ -1,0 +1,20 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../blocks/partners/partners.css");
+@import url("../blocks/partners/__title/partners__title.css");
+@import url("../blocks/partners/__subtitle/partners__subtitle.css");
+@import url("../blocks/partners/__logo-zone/partners__logo-zone.css");
+@import url("../blocks/communication/communication.css");
+@import url("../blocks/communication/__grid/communication__grid.css");
+@import url("../blocks/communication/__grid-item/communication__grid-item.css");
+@import url("../blocks/communication/__title/communication__title.css");
+@import url("../blocks/communication/__subtitle/communication__subtitle.css");
+@import url("../blocks/communication/communication.css");
+@import url("../blocks/communication/__btn-submit/communication__btn-submit.css");
+@import url("../blocks/partners/__logo-link/partners__logo-link.css");
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.partners__title {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.89;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #001337;
+  max-width: 472px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 385px;
+}

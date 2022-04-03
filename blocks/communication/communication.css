@@ -1,0 +1,8 @@
+.communication {
+  background: #009FAC;
+  height: 577px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
