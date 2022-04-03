@@ -1,0 +1,6 @@
+.carousel__button_background_blue{
+    background-color: #001337;
+}
+.carousel__button_background_blue:focus{
+    background-color: #009FAC;
+}

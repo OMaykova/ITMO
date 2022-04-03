@@ -1,0 +1,10 @@
+.publications__cards-list {
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 548px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: nowrap;
+}

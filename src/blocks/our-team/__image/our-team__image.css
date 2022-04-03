@@ -1,0 +1,6 @@
+.our-team__image{
+    width: 215px;
+    object-fit: contain;
+    max-height: 286px;
+    border-radius: 10px;
+}
