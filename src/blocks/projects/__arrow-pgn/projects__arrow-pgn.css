@@ -1,0 +1,11 @@
+.projects__arrow-pgn {
+  width: 32px;
+  height: 32px;
+
+  transition: opacity .2s linear;
+}
+
+.projects__arrow-pgn:hover {
+  cursor: pointer;
+  opacity: .6;
+}

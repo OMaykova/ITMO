@@ -1,0 +1,15 @@
+.projects__card_big-size {
+  width: 540px;
+  padding: 22px 20px;
+  color: #001337;
+
+  background-color: #e0f0ff;
+  background-size: 254px 228px;
+  background-position: right;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

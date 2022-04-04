@@ -10,4 +10,12 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
+
+  transition: opacity .2s linear;
+}
+
+
+.projects__filter:hover {
+  cursor: pointer;
+  opacity: .6;
 }

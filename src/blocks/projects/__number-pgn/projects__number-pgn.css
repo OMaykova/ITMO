@@ -1,3 +1,10 @@
 .projects__number-pgn {
   margin-right: 28.57px;
+
+  transition: opacity .2s linear;
+}
+
+.projects__number-pgn:hover {
+  cursor: pointer;
+  opacity: .6;
 }

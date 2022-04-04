@@ -1,0 +1,7 @@
+.projects__card-arrow_big-size {
+  background-color: #009fac;
+  background-image: url('../../../../images/projects_arrow-to-left.svg');
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
