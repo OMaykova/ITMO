@@ -1,5 +1,5 @@
-.lead__button{
-border: 1px solid white;
+.lead__button {
+  border: 1px solid white;
   width: 350px;
   height: 60px;
   justify-self: end;
@@ -12,17 +12,24 @@ border: 1px solid white;
   line-height: 30px;
   text-transform: uppercase;
   margin: 50px 0 0;
+  transition: color .1s linear;
+  transition: border .1s linear;
+}
+
+.lead__button:hover {
+  color: #009FAC;
+  border: 1px solid #009FAC;
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__button {
-        width: 330px;
-    }
+  .lead__button {
+    width: 330px;
   }
+}
   
-  @media screen and (max-width: 767px) {
-    .lead__button {
-        width: 288px;
-        height: 44px;
-    }
+@media screen and (max-width: 767px) {
+  .lead__button {
+    width: 288px;
+    height: 44px;
   }
+}
