@@ -1,0 +1,16 @@
+.header__small-popup{
+    position: absolute;
+    min-width: 120px;
+    min-height: 56px;
+    background-color:#000D26;
+    top: 55px;
+    left:-10px;
+    display: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 1281px) {
+    .header__small-popup {
+      max-width: 90px;
+    }
+  }
