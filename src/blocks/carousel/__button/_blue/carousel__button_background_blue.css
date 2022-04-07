@@ -4,3 +4,9 @@
 .carousel__button_background_blue:focus{
     background-color: #009FAC;
 }
+
+
+@media all and (max-width:545px){
+    .carousel__button_background_blue{
+        display: none;
+}}

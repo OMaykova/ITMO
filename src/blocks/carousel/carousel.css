@@ -1,6 +1,9 @@
 .carousel {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
 }

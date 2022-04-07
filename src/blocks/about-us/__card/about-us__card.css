@@ -1,9 +1,16 @@
 .about-us__card{
     width: 348px;
+    min-width: 288px;
     /* height: 340px; */
     display: flex;
     flex-direction: column;
     padding: 20px 20px 30px 20px;
     background-color: #E0F0FF;
     border-radius: 10px;
+}
+@media screen and (max-width:545px) {
+    .about-us__card{
+        width: 100%;
+        margin: 0 auto;
+    }
 }

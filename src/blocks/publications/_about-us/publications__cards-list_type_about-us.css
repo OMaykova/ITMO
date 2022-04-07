@@ -3,3 +3,11 @@
     gap: 24px;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width:545px) {
+    .publications__cards-list_type_about-us{
+        margin: 0 auto;
+        max-width: 328px;
+    }
+    
+}

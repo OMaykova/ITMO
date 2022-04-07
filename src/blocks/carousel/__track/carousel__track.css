@@ -1,4 +1,12 @@
 .carousel__track {
-  width: 1104px;
+  max-width: 1104px;
   margin: 0 18px;
+  overflow: hidden;
+}
+
+
+@media all and (max-width: 545px) {
+  .carousel__track {
+    margin: 0;
+  }
 }

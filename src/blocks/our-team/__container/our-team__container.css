@@ -1,7 +1,9 @@
-.our-team__container{
+.our-team__container {
     position: relative;
     top: -300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    width: 100%;
 }

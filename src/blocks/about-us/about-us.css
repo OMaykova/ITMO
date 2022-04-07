@@ -1,3 +1,9 @@
 .about-us{
     background-color: #001337;
+    padding: 124px 39px 0 39px;
+}
+@media screen and (max-width:700px){
+    .about-us{
+        padding: 60px 20px 0 20px;
+    }
 }
