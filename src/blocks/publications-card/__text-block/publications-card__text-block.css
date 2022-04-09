@@ -1,0 +1,15 @@
+.publications-card__text-block {
+  min-height: 255px;
+}
+
+@media screen and (max-width: 1280px) {
+  .publications-card__text-block {
+    min-height: 247px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .publications-card__text-block {
+    min-height: 214px;
+  }
+}

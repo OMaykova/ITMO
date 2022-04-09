@@ -1,22 +1,54 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/swiper/swiper.css);
+
+/*Tooltip share*/
+@import url(../blocks/ya-share2/ya-share2.css);
+@import url(../blocks/ya-share2/_opened/ya-share2_opened.css);
+@import url(../blocks/ya-share2/__list/ya-share2__list.css);
+@import url(../blocks/ya-share2/__item/ya-share2__litem.css);
+@import url(../blocks/ya-share2/__link/ya-share2__link.css);
+@import url(../blocks/ya-share2/__link/_type/publications-card__link_type_sm-share.css);
+@import url(../blocks/ya-share2/__title/ya-share2__title.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_vkontakte.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_messenger.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_telegram.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_odnoklassniki.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_whatsapp.css);
+
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/carousel/carousel.css);
-@import url(../blocks/carousel/__button/carousel__button.css);
-@import url(../blocks/carousel/__track/carousel__track.css);
+/*Slider*/
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_theme/slider__button_theme_light.css);
+@import url(../blocks/slider/__button/_theme/slider__button_theme_dark.css);
+@import url(../blocks/slider/__button-next/slider__button-next.css);
+@import url(../blocks/slider/__button-prev/slider__button-prev.css);
+@import url(../blocks/slider/__button-next/_theme/slider__button-next_theme_light.css);
+@import url(../blocks/slider/__button-prev/_theme/slider__button-prev_theme_light.css);
+@import url(../blocks/slider/__button-next/_theme/slider__button-next_theme_dark.css);
+@import url(../blocks/slider/__button-prev/_theme/slider__button-prev_theme_dark.css);
+@import url(../blocks/slider/__pagination/slider__pagination.css);
+@import url(../blocks/slider/__pagination/_theme/slider__pagination_theme_light.css);
+@import url(../blocks/slider/__pagination/_theme/slider__pagination_theme_dark.css);
 
 
+/*Publication section*/
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publications/__title/publications__title.css);
-@import url(../blocks/publications/__cards-list/publications__cards-list.css);
+@import url(../blocks/slider/__cards-list/slider__cards-list.css);
 @import url(../blocks/publications-card/publications-card.css);
 @import url(../blocks/publications-card/__info/publications-card__info.css);
+@import url(../blocks/publications-card/__text-block/publications-card__text-block.css);
 @import url(../blocks/publications-card/__image/publications-card__image.css);
 @import url(../blocks/publications-card/__title/publications-card__title.css);
 @import url(../blocks/publications-card/__subtitle/publications-card__subtitle.css);
 @import url(../blocks/publications-card/__text/publications-card__text.css);
-@import url(../blocks/publications-card/__share/publications-card__share.css);
+@import url(../blocks/publications-card/__readAndShare/publications-card__readAndShare.css);
 @import url(../blocks/publications-card/__link/publications-card__link.css);
 @import url(../blocks/publications-card/__link-read-img/publications-card__link-read-img.css);
+
+

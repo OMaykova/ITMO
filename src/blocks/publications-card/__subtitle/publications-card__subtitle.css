@@ -3,5 +3,23 @@
   font-size: 14px;
   line-height: 19px;
   color: #009FAC;
-  margin: 4px 0  0;
+  margin: 0 0 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+@media screen and (max-width: 1280px) {
+  .publications-card__subtitle {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .publications-card__subtitle {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 10px;
+  }
 }

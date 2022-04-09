@@ -1,3 +1,4 @@
 .publications-card__link-read-img {
   margin-left: 12px;
+  background-image: url("../../../images/publications/publications_arrow-right.svg");
 }

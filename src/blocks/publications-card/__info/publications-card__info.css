@@ -1,10 +1,24 @@
 .publications-card__info {
+  width: 100%;
+  box-sizing: border-box;
   background-color: #fff;
   padding: 20px 19px 30px;
   border-radius: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: 1;
   transition: border-radius .6s;
+}
+
+@media screen and (max-width: 1280px) {
+  .publications-card__info {
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+    transition: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .publications-card__info {
+    padding: 16px;
+  }
 }

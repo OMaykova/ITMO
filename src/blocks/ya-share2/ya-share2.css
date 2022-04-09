@@ -1,0 +1,30 @@
+.ya-share2 {
+  list-style: none;
+  position: absolute;
+  right: -60px;
+  bottom: 62px;
+  z-index: 2;
+  display: none;
+  box-shadow: 0 4px 20px rgba(73, 111, 168, 0.15);
+}
+
+.ya-share2::after {
+  content: '';
+  border: 8px solid transparent;
+  border-top: 8px solid white;
+  position: absolute;
+  bottom: -16px;
+  left: 46%;
+}
+
+@media screen and (max-width: 1280px) {
+  .ya-share2 {
+    bottom: 57px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ya-share2 {
+    bottom: 42px;
+  }
+}
