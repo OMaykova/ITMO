@@ -2,16 +2,40 @@
   box-sizing: border-box;
   width: 348px;
   height: 548px;
-  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+  box-shadow: 0 4px 20px rgba(1, 54, 157, 0.15);
   color: #000D26;
   position: relative;
   flex: 0 0 auto;
+  transform: none;
 }
 
-.publications-card:hover .publications-card__image {
-  height: 158px;
+/*.swiper-slide {
+  box-sizing: border-box;
+  width: 348px;
+  height: 548px;
+}*/
+
+@media screen and (min-width: 1281px) {
+  .publications-card:hover .publications-card__image {
+    height: 158px;
+  }
+
+  .publications-card:hover .publications-card__info {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+  }
 }
 
-.publications-card:hover .publications-card__info {
-  border-radius: inherit;
+@media screen and (max-width: 1280px) {
+  .publications-card {
+    width: 330px;
+    height: 515px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .publications-card {
+    width: 288px;
+    height: 462px;
+  }
 }

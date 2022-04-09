@@ -1,0 +1,23 @@
+.slider__pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.slider__pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+}
+
+@media screen and (max-width: 425px) {
+  .slider__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+  }
+
+  .slider__pagination .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+  }
+}

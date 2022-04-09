@@ -1,343 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="pages/index.css" />
-  <title>Лаборатории ИТМО</title>
-</head>
-
-<body>
-  <div class="page">
-
-
-
-    <header class="header">
-
-    </header>
-
-
-
-    <main class="content">
-      <section class="about-us">
-        <h2 class="about-us__title">несколько слов о нас</h2>
-        <p class="about-us__subtitle">Национальный центр когнитивных разработок – центр национальной технологической
-          инициативы
-          (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные
-          технологии».</p>
-        <div class="carousel">
-          <button class="carousel__button carousel__button_background_blue" name="prev">
-            <img src="./images/our-team/arrow-down.png" class="carousel__arrow">
-          </button>
-          <div class="carousel__track">
-            <ul class="publications__cards-list publications__cards-list_type_about-us">
-
-              <li class="about-us__card">
-                <p class="about-us__date">Понедельник, 5 июля 2021г</p>
-                <h4 class="about-us__name">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Университет ИТМО провел научно-исследовательскую стажировку для группы
-                  магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели в
-                  течение десяти дней рассказывали им об основах машинного обучения. </p>
-              </li>
-
-              <li class="about-us__card">
-                <p class="about-us__date">Понедельник, 5 июля 2021г</p>
-                <h4 class="about-us__name">АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех
-                  ребятам принес Роберт Роботецкий — робот-виртуоз, исполнивший знаменитый французский романс «Под небом
-                  Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
-              </li>
-
-              <li class="about-us__card">
-                <p class="about-us__date">Суббота, 3 июля 2021г</p>
-                <h4 class="about-us__name">ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и
-                  прошлого года. Из-за эпидемиологической ситуации отменена развлекательная часть, но сохранилась
-                  торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
-              </li>
-              <!-- 
-              <li class="about-us__card">
-                <p class="about-us__date">Пятница, 2 июля 2021г</p>
-                <h4 class="about-us__name">«LEAVING THE DIGITAL» — ИЛИ КАК СОЕДИНИТЬ ЦИФРОВОЕ, ТЕХНОЛОГИЧЕСКОЕ И БИОЛОГ…
-                </h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Преподаватели центра Art & Science Университета ИТМО провели открытый
-                  воркшоп, посвященный созданию произведений, объединяющих в себе биологическую и синтетическую среды.
-                  Серия занятий приурочена к приемной кампании в магистратуру центра.</p>
-              </li>
-
-              <li class="about-us__card">
-                <p class="about-us__date">Пятница, 2 июля 2021г</p>
-                <h4 class="about-us__name">В ИТМО ЗАПУСКАЕТСЯ ПЕРВАЯ ПРОЕТНАЯ МАГИСТРАТУРА — ДЛЯ АБИТУРИЕНТОВ ФАКУЛЬТЕТА
-                  П…</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Особенность нового формата магистратуры в том, что студенты смогут
-                  составлять программу своего обучения, выбирать только те курсы, которые им интересны, а главное —
-                  работать над технологически сложным проектом под руководством менторов из топовых IT-компаний.</p>
-              </li> -->
-              <!-- <li class="about-us__card">
-                <p class="about-us__date">Пятница, 2 июля 2021г</p>
-                <h4 class="about-us__name">КОГДА НЕ ЗАНИМАЕШЬСЯ СВОИМ ОБРАЗОВАНИЕМ, МОЖНО ПРИЙТИ К СОТСТОЯНИ…</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Владислав Танков поступил в ИТМО будучи специалистом в компании
-                  JetBrains. На одном из хакатонов в рамках программы с JetBrains он сделал плагин для проверки
-                  грамотности текстов в среде разработки IntelliJ IDEA. После окончания магистратуры Владислав возглавил
-                  команду разработки.</p>
-              </li>
-              <li class="about-us__card">
-                <p class="about-us__date">Четверг, 1 июля 2021г</p>
-                <h4 class="about-us__name">СТУДЕНТЫ ИТМО И ВЫПУСКНИКИ ЛЭТИ РАЗРАБОТАЛИ МОДУЛЬ ДЛЯ БЫ…</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Интеллектуальный модуль для станций зарядки позволяет заряжать
-                  накопители в электрокарах и электросамокатах быстрее, чем при питании от сети. Программное обеспечение
-                  модуля обеспечивает защиту в случае аварийных ситуаций и повышает эффективность всего зарядного
-                  устройства.</p> -->
-              <!-- </li>
-              <li class="about-us__card">
-                <p class="about-us__date">Четверг, 1 июля 2021г</p>
-                <h4 class="about-us__name">КАКИЕ СУЩЕСТВУЮТ ВАКЦИНЫ, КАК ИХ ИСПЫТЫВАЮТ, И ПО КАКИМ ПРИНЦЫПАМ ИХ СЛЕДУ…
-                </h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Вакцинация от коронавируса стала одной из главных тем. Весь мир следит
-                  за количеством привитых. Прививочная кампания дает результат — снижается смертность, количество
-                  госпитализаций. Но вокруг вакцинации остается много мифов, которые вызывают у скептиков споры.</p>
-              </li>
-              <li class="about-us__card">
-                <p class="about-us__date">Среда, 30 июня 2021г</p>
-                <h4 class="about-us__name">УНИВЕРСИТЕТ ИТМО ЗАПУСКАЕТ НОВУЮ КОРПОРАТИВНУЮ СПЕЦИАЛИЗАЦИЮ В МАГИСТРА…</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">Партнером нового направления станет Napoleon IT. Сотрудники компании и
-                  преподаватели ИТМО будут готовить магистров, которые смогут работать в проектах, связанных с
-                  распознаванием лиц, технологиями deepfake, созданием приложений для распознавания предметов.</p>
-              </li>
-              <li class="about-us__card">
-                <p class="about-us__date">Среда, 30 июня 2021г</p>
-                <h4 class="about-us__name">СТУДЕНТКА И СОТРУДНИЦА ИТМО АННА ВОЛОШИНА ПОЛУЧИЛА БРОНЗОВОГО СФИН...</h4>
-                <div class="about-us__line"></div>
-                <p class="about-us__description">В Петропавловской крепости состоялась торжественная церемония вручения
-                  наград лучшим выпускникам Санкт-Петербурга. Среди тех, кто получил памятную статуэтку, была выпускница
-                  факультета технологического менеджмента и инноваций Анна Волошина. </p>
-              </li> -->
-            </ul>
-          </div>
-          <button class="carousel__button carousel__button_background_blue" name="next" class="carousel__arrow"><img
-              src="./images/our-team/arrow-right.png"></button>
-
-        </div>
-        <button class="carousel__pagination-dots">
-
-        </button>
-      </section>
-
-
-      <section class="publications">
-        <h2 class="publications__title">Публикации</h2>
-        <div class="carousel">
-          <button class="carousel__button" name="prev"><img src="./images/arrows/arrow-white/arrow-left.png"
-              class="carousel__arrow"></button>
-          <div class="carousel__track">
-            <ul class="publications__cards-list">
-              <li class="publications-card">
-                <div class="publications-card__info">
-                  <img class="publications-card__image"
-                    src="images/publication_Topic-driven_Ensemble_for_Online_Advertising_Generation.png" alt="" />
-                  <h3 class="publications-card__title">
-                    Topic-driven Ensemble for Online Advertising Generation
-                  </h3>
-                  <p class="publications-card__subtitle">
-                    Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim
-                    Petrov, Denis Nasonov
-                  </p>
-                  <p class="publications-card__text">
-                    Online advertising is one of the most widespread ways to
-                    reach and increase a target audience for those selling
-                    products. Usually having a form of a banner, advertising
-                    engages users into visiting a corresponding webpage.
-                    Professional generation of banners requires creative and
-                    writing skills and a basic bla bla bla
-                  </p>
-                </div>
-                <div class="publications-card__share">
-                  <a class="publications-card__link" href="#">Читать полностью
-                    <img class="publications-card__link-read-img" src="images/publications_arrow-right.svg"
-                      alt="Стрелка вправо" />
-                  </a>
-                  <a class="publications-card__link" href="#">
-                    <img src="images/publication_button_share.svg" alt="Поделиться" />
-                  </a>
-                </div>
-              </li>
-              <li class="publications-card">
-                <div class="publications-card__info">
-                  <img class="publications-card__image"
-                    src="images/publication_Topic-driven_Ensemble_for_Online_Advertising_Generation.png" alt="" />
-                  <h3 class="publications-card__title">
-                    Topic-driven Ensemble for Online Advertising Generation
-                  </h3>
-                  <p class="publications-card__subtitle">
-                    Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim
-                    Petrov, Denis Nasonov
-                  </p>
-                  <p class="publications-card__text">
-                    Online advertising is one of the most widespread ways to
-                    reach and increase a target audience for those selling
-                    products. Usually having a form of a banner, advertising
-                    engages users into visiting a corresponding webpage.
-                    Professional generation of banners requires creative and
-                    writing skills and a basic bla bla bla
-                  </p>
-                </div>
-                <div class="publications-card__share">
-                  <a class="publications-card__link" href="#">Читать полностью
-                    <img class="publications-card__link-read-img" src="images/publications_arrow-right.svg"
-                      alt="Стрелка вправо" />
-                  </a>
-                  <a class="publications-card__link" href="#">
-                    <img src="images/publication_button_share.svg" alt="Поделиться" />
-                  </a>
-                </div>
-              </li>
-              <li class="publications-card">
-                <div class="publications-card__info">
-                  <img class="publications-card__image"
-                    src="images/publication_Topic-driven_Ensemble_for_Online_Advertising_Generation.png" alt="" />
-                  <h3 class="publications-card__title">
-                    Topic-driven Ensemble for Online Advertising Generation
-                  </h3>
-                  <p class="publications-card__subtitle">
-                    Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim
-                    Petrov, Denis Nasonov
-                  </p>
-                  <p class="publications-card__text">
-                    Online advertising is one of the most widespread ways to
-                    reach and increase a target audience for those selling
-                    products. Usually having a form of a banner, advertising
-                    engages users into visiting a corresponding webpage.
-                    Professional generation of banners requires creative and
-                    writing skills and a basic bla bla bla
-                  </p>
-                </div>
-                <div class="publications-card__share">
-                  <a class="publications-card__link" href="#">Читать полностью
-                    <img class="publications-card__link-read-img" src="images/publications_arrow-right.svg"
-                      alt="Стрелка вправо" />
-                  </a>
-                  <a class="publications-card__link" href="#">
-                    <img src="images/publication_button_share.svg" alt="Поделиться" />
-                  </a>
-                </div>
-              </li>
-              <li class="publications-card">
-                <div class="publications-card__info">
-                  <img class="publications-card__image"
-                    src="images/publication_Topic-driven_Ensemble_for_Online_Advertising_Generation.png" alt="" />
-                  <h3 class="publications-card__title">
-                    Topic-driven Ensemble for Online Advertising Generation
-                  </h3>
-                  <p class="publications-card__subtitle">
-                    Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim
-                    Petrov, Denis Nasonov
-                  </p>
-                  <p class="publications-card__text">
-                    Online advertising is one of the most widespread ways to
-                    reach and increase a target audience for those selling
-                    products. Usually having a form of a banner, advertising
-                    engages users into visiting a corresponding webpage.
-                    Professional generation of banners requires creative and
-                    writing skills and a basic bla bla bla
-                  </p>
-                </div>
-                <div class="publications-card__share">
-                  <a class="publications-card__link" href="#">Читать полностью
-                    <img class="publications-card__link-read-img" src="images/publications_arrow-right.svg"
-                      alt="Стрелка вправо" />
-                  </a>
-                  <a class="publications-card__link" href="#">
-                    <img src="images/publication_button_share.svg" alt="Поделиться" />
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <button class="carousel__button" name="next"><img src="./images/arrows/arrow-white/arrow-right.png"
-              class="carousel__arrow"></button>
-          <button class="carousel__pagination-dots"></button>
-        </div>
-      </section>
-
-      <section class="our-team">
-        <div class="our-team__container">
-          <h3 class="our-team__title">НАША КОМАНДА</h3>
-          <div class="carousel">
-            <button class="carousel__button carousel__button_background_blue" name="prev">
-              <img src="./images/our-team/arrow-down.png" class="carousel__arrow">
-            </button>
-            <div class="carousel__track">
-              <ul class="publications__cards-list publications__cards-list_type_our-team">
-
-                <li class="our-team__card">
-                  <img src="../src/images/our-team/bobtsov.jpg" alt="" class="our-team__image">
-                  <h4 class="our-team__name">Бобцов
-                    Алексей&nbspАлексеевич</h4>
-                  <p class="our-team__description">Директор, профессор, ДТН</p>
-                </li>
-                <li class="our-team__card">
-                  <img src="../src/images/our-team/bukhanovskiy.jpg" alt="" class="our-team__image">
-                  <h4 class="our-team__name">Буханоский
-                    Александр&nbspВалерьевич</h4>
-                  <p class="our-team__description">Директор, руководитель, ДТН</p>
-                </li>
-                <li class="our-team__card">
-                  <img src="../src/images/our-team/muromtsev.jpg" alt="" class="our-team__image">
-                  <h4 class="our-team__name">Муромцев
-                    Дмитрий&nbspИльич</h4>
-                  <p class="our-team__description">Руководитель, доцент, КТН</p>
-                </li>
-                <li class="our-team__card">
-                  <img src="../src/images/our-team/matveev.jpg" alt="" class="our-team__image">
-                  <h4 class="our-team__name">Матвеев
-                    Юрий&nbspНиколаевич</h4>
-                  <p class="our-team__description">Руководитель, профессор, ДТН</p>
-                </li>
-                <li class="our-team__card">
-                  <img src="../src/images/our-team/shalto.jpg" alt="" class="our-team__image">
-                  <h4 class="our-team__name">Шалыто
-                    Анатолий&nbspАбрамович</h4>
-                  <p class="our-team__description">Профессор, ДТН</p>
-                </li>
-                <li class="our-team__card">
-                  <img src="../src/images/our-team/kolybin.jpg" alt="" class="our-team__image">
-                  <h4 class="our-team__name">Колюбин
-                    Сергей&nbspАлексеевич</h4>
-                  <p class="our-team__description">Начальник, профессор, ДТН</p>
-                </li>
-                <li class="our-team__card">
-                  <img src="../src/images/our-team/pyrkin.jpg" alt="" class="our-team__image">
-                  <h4 class="our-team__name">Пыркин
-                    Антон&nbspАлександрович</h4>
-                  <p class="our-team__description">Декан, профессор, ДТН</p>
-                </li>
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Лаборатории ИТМО</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header"></header>
+      <main class="content">
+        <section class="publications page__section page__section_type_slider">
+          <h2 class="publications__title">Публикации</h2>
+          <!-- Slider main container -->
+          <div class="slider">
+            <div class="swiper slider__container">
+              <!-- Additional required wrapper -->
+              <ul
+                class="swiper-wrapper slider__cards-list slider__cards-list_type_publications"
+              >
+                <!-- Slides -->
               </ul>
             </div>
-            <button class="carousel__button carousel__button_background_blue" name="next" class="carousel__arrow"><img
-                src="./images/our-team/arrow-right.png"></button>
-
+            <div
+              class="slider__button slider__button_theme_light slider__button-next slider__button-next_theme_light slider__button-next_type_publications"
+            ></div>
+            <div
+              class="slider__pagination slider__pagination_section_publications slider__pagination_theme_light"
+            ></div>
+            <div
+              class="slider__button slider__button_theme_light slider__button-prev slider__button-prev_theme_light slider__button-prev_type_publications"
+            ></div>
           </div>
-          <button class="carousel__pagination-dots">
-
-          </button>
-
-      </section>
-
-    </main>
-    <footer class="footer"></footer>
-  </div>
-</body>
-
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <template id="publications-card">
+      <li class="swiper-slide publications-card">
+        <div class="publications-card__info">
+          <img
+            class="publications-card__image"
+            src="images/publications/1.png"
+            alt=""
+          />
+          <div class="publications-card__text-block">
+            <h3 class="publications-card__title">
+              Topic-driven Ensemble for Online Advertising Generation
+            </h3>
+            <p class="publications-card__subtitle">
+              Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov,
+              Denis Nasonov
+            </p>
+            <p class="publications-card__text">
+              Online advertising is one of the most widespread ways to reach and
+              increase a target audience for those selling products. Usually
+              having a form of a banner, advertising engages users into visiting
+              a corresponding webpage. Professional generation of banners
+              requires creative and writing skills and a basic bla bla bla
+            </p>
+          </div>
+        </div>
+        <div class="publications-card__readAndShare">
+          <a
+            class="publications-card__link publications-card__link_type_read-more"
+            href="#"
+            >Читать полностью
+            <img
+              class="publications-card__link-read-img"
+              src="images/publications/publications_arrow-right.svg"
+              alt="Стрелка вправо"
+            />
+          </a>
+          <a
+            class="publications-card__link publications-card__link_type_sm-share"
+            href="#"
+          >
+            <img
+              src="images/publications/publication_button_share.svg"
+              alt="Поделиться"
+            />
+          </a>
+        </div>
+        <div
+          class="ya-share2"
+          data-bare
+          data-curtain
+          data-services="vkontakte,messenger,telegram,odnoklassniki,whatsapp"
+        ></div>
+      </li>
+    </template>
+    <script src="https://yastatic.net/share2/share.js" async></script>
+    <script type="module" src="./pages/index.js"></script>
+  </body>
 </html>

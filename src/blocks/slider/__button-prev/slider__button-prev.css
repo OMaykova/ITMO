@@ -1,0 +1,9 @@
+.slider__button-prev {
+  left: 89px;
+}
+
+@media screen and (max-width: 1439px) {
+  .slider__button-prev {
+    left: calc((100vw - 1104px)/7);
+  }
+}

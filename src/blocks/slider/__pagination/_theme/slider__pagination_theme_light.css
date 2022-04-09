@@ -1,0 +1,9 @@
+.slider__pagination_theme_light .swiper-pagination-bullet {
+  background: #001337;
+  opacity: 0.5;
+}
+
+.slider__pagination_theme_light .swiper-pagination-bullet-active {
+  background-color: #001337;
+  opacity: 1;
+}
