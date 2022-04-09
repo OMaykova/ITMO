@@ -22,6 +22,7 @@
 /*Slider*/
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/__cards-list/slider__cards-list.css);
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__button/_theme/slider__button_theme_light.css);
 @import url(../blocks/slider/__button/_theme/slider__button_theme_dark.css);
@@ -42,7 +43,6 @@
 /*Publication section*/
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publications/__title/publications__title.css);
-@import url(../blocks/slider/__cards-list/slider__cards-list.css);
 @import url(../blocks/publications-card/publications-card.css);
 @import url(../blocks/publications-card/__info/publications-card__info.css);
 @import url(../blocks/publications-card/__text-block/publications-card__text-block.css);
