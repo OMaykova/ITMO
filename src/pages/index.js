@@ -1,4 +1,4 @@
-import { Popup } from "../scripts/Popup.js";
+import { Popup } from "../scripts/components/Popup.js";
 const cardButtons = document.querySelectorAll('.lab-card__button');
 
 const popupLab = new Popup('.popup-lab');
