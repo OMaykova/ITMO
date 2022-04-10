@@ -9,7 +9,7 @@
   transform: none;
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
   .publications-card:hover .publications-card__image {
     height: 158px;
   }

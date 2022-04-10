@@ -1,0 +1,25 @@
+.footer__address-city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__address-city {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__address-city {
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__address-city {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

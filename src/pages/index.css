@@ -77,3 +77,24 @@
 @import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
 @import url(../blocks/publications/_about-us/publications__cards-list_type_about-us.css);
 /*================================================================================*/
+
+/*Footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_contact-info.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_about-us.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_evolution.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-links/type/footer__column-links_type_social.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__copyright-heading/footer__copyright-heading.css);
+@import url(../blocks/footer/__address-city/footer__address-city.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact-address/footer__contact-address.css);
+@import url(../blocks/footer/__contact-phone/footer__contact-phone.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-link-icon/footer__social-link-icon.css);

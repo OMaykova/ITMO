@@ -9,7 +9,13 @@
   height: 8px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1280px) {
+  .slider__pagination {
+    margin-top: 20px;
+  }
+}
+
+  @media screen and (max-width: 425px) {
   .slider__pagination {
     display: flex;
     justify-content: center;
