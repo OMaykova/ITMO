@@ -1,9 +1,17 @@
 .lab-grid {
-  display: grid;
-  grid-template-columns: 540px 1fr;
-  column-gap: 30px;
-  row-gap: 80px;
+  width: 77%;
+  display: block;
+  /* display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; */
+
   margin: 0 auto;
   margin-top: 60px;
-  max-width: 1110px;
+}
+@media screen and (max-width: 768px) {
+  .lab-grid {
+    width: 100%;
+    margin-top: 30px;
+
+  }
 }

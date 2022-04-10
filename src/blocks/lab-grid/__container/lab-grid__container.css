@@ -1,0 +1,5 @@
+.lab-grid__container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}

@@ -7,3 +7,19 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 20px 0px #01369D26;
 }
+@media screen and (max-width: 768px) {
+  .lab-card__icon {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0px 2px 12px 0px #01369D26;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lab-card__icon {
+    margin: 16px auto;
+    padding: 10px;
+    box-shadow: 0px 2px 12px 0px #01369D26;
+  }
+}

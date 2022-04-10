@@ -1,0 +1,12 @@
+.lab__photos {
+  width: 47%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+@media screen and (max-width: 320px) {
+  .lab__photos {
+  order: 1;
+  width: 100%;
+  }
+}

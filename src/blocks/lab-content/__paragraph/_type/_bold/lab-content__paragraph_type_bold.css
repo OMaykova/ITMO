@@ -1,0 +1,10 @@
+.lab-content__paragraph_type_bold {
+  font-weight: 400;
+  line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+  .lab-content__paragraph_type_bold {
+    line-height: 20px;
+  }
+
+}

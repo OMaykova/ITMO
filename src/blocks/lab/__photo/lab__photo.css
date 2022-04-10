@@ -8,3 +8,22 @@
 .lab__photo:last-child {
  margin-left: 7px;
 }
+@media screen and (max-width: 768px) {
+  .lab__photo:nth-child(1) {
+    display: none;
+  }
+  .lab__photo {
+    width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .lab__photo:last-child {
+    margin-left: 0;
+   }
+}
+@media screen and (max-width: 320px) {
+  .lab__photo {
+    width: 100%;
+  }
+
+}

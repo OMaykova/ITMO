@@ -40,3 +40,32 @@
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+  .lab-card {
+    width: 150px;
+    height: 242px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 12px 0px #01369D26;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lab-card {
+    width: 140px;
+    height: 224px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 12px 0px #01369D26;
+  }
+  .lab-card:hover {
+    transform: none;
+  }
+  .lab-card:nth-child(2):hover {
+    transform: none;
+  }
+  .lab-card:nth-child(3):hover {
+    transform: none;
+  }
+  .lab-card:last-child:hover {
+    transform: none;
+  }
+}

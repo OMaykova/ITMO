@@ -1,0 +1,11 @@
+.lab-card__vector {
+  width: 34px;
+  height: 34px;
+}
+@media screen and (max-width: 768px) {
+  .lab-card__vector {
+    width: 20px;
+    height: 20px;
+  }
+
+}

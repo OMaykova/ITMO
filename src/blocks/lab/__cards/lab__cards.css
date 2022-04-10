@@ -1,6 +1,17 @@
 .lab__cards {
   display: flex;
-  flex-direction: row;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  margin-top: 80px;
+}
+@media screen and (max-width: 768px) {
+  .lab__cards {
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 320px) {
+  .lab__cards {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 8px;
+  }
 }
