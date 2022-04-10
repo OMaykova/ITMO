@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 769px) {
   .header__menu {
     visibility: collapse;
     width: 0px;

@@ -20,8 +20,8 @@
           <li class="header__item header__item_active"><a href="#" target="_blank" class="header__link">О нас</a></li>
           <li class="header__item"><a href="#" target="_blank" class="header__link">Лаборатория</a></li>
           <li class="header__item"><a href="#" target="_blank" class="header__link">Проекты</a></li>
-          <li class="header__item header__item_education"><a href="#" target="_blank" class="header__link">Образование</a>
-            <ul class='header__small-popup header__small-popup_active'>
+          <li class="header__item header__item_education" id="education"><a target="_blank" class="header__link">Образование</a>
+            <ul class='header__small-popup'>
               <li class="header__small-popup-item"><a href="#" target="_blank" class="header__link">Аспирантура</a></li>
               <li class="header__small-popup-item"><a href="#" target="_blank" class="header__link">Магистратура</a></li>
             </ul>
@@ -51,8 +51,31 @@
 
     </main>
 
-  </div>
+    <section class="header-popup">
+      <div class="header-popup__container">
+        <div class="header-popup__block">
+          <img class="header-popup__logo" src="./images/header/Logo_AI 1.svg" alt="Логотип лаборатории ИТМО.">
+          <button class="header-popup__close" type="button"></button>
+        </div>
+        <ul class='header-popup__menu'>
+          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">О нас</a></li>
+          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Лаборатория</a></li>
+          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Проекты</a></li>
+          <li class="header-popup__item"><a target="_blank" class="header__link">Образование</a>
+            <ul class='header-popup__menu-container'>
+              <li class="header-popup__menu-item"><a href="#" target="_blank" class="header__link">Аспирантура</a></li>
+              <li class="header-popup__menu-item"><a href="#" target="_blank" class="header__link">Магистратура</a></li>
+            </ul>
+          </li>
+          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Публикации</a></li>
+          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Команда</a></li>
+          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Связаться</a></li>
+        </ul>
+      </div>
+    </section>
 
+  </div>
+  <script src="./pages/header.js"></script>
 </body>
 
 </html>

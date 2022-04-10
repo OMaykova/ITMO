@@ -13,14 +13,20 @@
   .lead__background {
     max-width: 1024px;
     min-height: 648px;
+  }
+}
+  
+@media screen and (max-width: 769px) {
+  .lead__background {
+    max-width: 769px;
+    min-height: 414px;
     justify-content: flex-start;
     flex-direction: row-reverse;
   }
 }
-  
-@media screen and (max-width: 767px) {
-  .lead__background {
-    max-width: 767px;
-    min-height: 414px;
+
+@media screen and (max-width: 425px) {
+  .lead__background{
+    display: block;
   }
 }

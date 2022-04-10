@@ -1,0 +1,11 @@
+.header-popup__logo {
+  max-width: 95px;
+  max-height: 32px;
+}
+
+@media screen and (max-width: 425px) {
+  .header-popup__logo{
+    max-width: 71px;
+    max-height: 24px;
+  }
+}

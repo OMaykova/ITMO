@@ -18,6 +18,18 @@
 @import url(../blocks/header/__small-popup-item/header__small-popup-item.css);
 /*=============================================================================*/
 
+/*HEADER-POPUP==================================================================*/
+@import url(../blocks/header-popup/header-popup.css);
+@import url(../blocks/header-popup/__container/header-popup__container.css);
+@import url(../blocks/header-popup/_opened/header-popup_opened.css);
+@import url(../blocks/header-popup/__logo/header-popup__logo.css);
+@import url(../blocks/header-popup/__close/header-popup__close.css);
+@import url(../blocks/header-popup/__menu/header-popup__menu.css);
+@import url(../blocks/header-popup/__block/header-popup__block.css);
+@import url(../blocks/header-popup/__item/header-popup__item.css);
+@import url(../blocks/header-popup/__menu-container/header-popup__menu-container.css);
+/*=============================================================================*/
+
 /*LEAD==================================================================*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__background/lead__background.css);

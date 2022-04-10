@@ -9,12 +9,12 @@
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 1024px;
-    transform: scale(-1, 1)
   }
 }
   
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .lead {
-    max-width: 767px;
+    max-width: 769px;
+    transform: scale(-1, 1)
   }
 }

@@ -4,6 +4,7 @@
   line-height: 24px;
   color:white;
   list-style-type: none;
+  min-height: 28px;
 }
 
 .header__small-popup-item:hover{

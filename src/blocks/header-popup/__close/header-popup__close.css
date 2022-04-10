@@ -1,0 +1,19 @@
+.header-popup__close {
+    background-color: transparent;
+    background-image: url(../../../images/header/close.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    height: 32px;
+    outline: none;
+    width: 32px;
+}
+
+@media screen and (max-width: 425px) {
+    .header-popup__close{
+      width: 24px;
+      height: 24px;
+    }
+  }
