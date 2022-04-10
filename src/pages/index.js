@@ -76,5 +76,5 @@ const publicationSwiperSettings = {
     prevEl: ".slider__button-prev_type_publications",
   },
 };
-new Swiper(".swiper", publicationSwiperSettings);
+new Swiper("#swiper-publications", publicationSwiperSettings);
 
