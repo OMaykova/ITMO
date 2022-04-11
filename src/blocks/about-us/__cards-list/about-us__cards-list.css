@@ -1,0 +1,24 @@
+.about-us__cards-list {
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: min-content;
+    gap: 30px;
+    margin: 0 0 0 30px;
+    padding: 20px 0 0 0;
+}
+
+.about-us__cards-list {
+    min-height: min-content;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:545px) {
+    .about-us__cards-list {
+        margin: 0 auto;
+        max-width: 328px;
+    }
+
+}

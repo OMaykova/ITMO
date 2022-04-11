@@ -4,14 +4,29 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
-    /* or 167% */
-
     letter-spacing: 0.1px;
-
-    /* White */
-
-    color: #FFFFFF;
+    color: #fff;
     max-width: 827px;
     margin: 30px auto 45px auto;
-    text-align: justify;
+    text-align: left;
+    max-width: 907px;
+    
+}
+
+
+@media screen and (max-width:768px){
+    .about-us__subtitle{
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .about-us__subtitle{
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 288px;
+    }
 }

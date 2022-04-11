@@ -1,0 +1,9 @@
+.our-team__cards-list {
+    min-height: min-content;
+    gap: 24px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+}

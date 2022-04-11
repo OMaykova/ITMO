@@ -1,0 +1,7 @@
+.carouselKar__arrow {
+    transition: ease-in-out .3s;
+}
+
+.carouselKar__arrow:hover {
+    transform: scale(15% 15%);
+}

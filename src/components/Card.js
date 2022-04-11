@@ -5,6 +5,7 @@ export class Card {
   }
 
   _getTemplate() {
+    // console.log(this._cardTemplateSelector);
     return document.querySelector(this._cardTemplateSelector).content;
   }
 }

@@ -1,0 +1,12 @@
+.carouselKar__track {
+  max-width: 1104px;
+  margin: 0 18px;
+  overflow: hidden;
+}
+
+
+@media all and (max-width: 545px) {
+  .carouselKar__track {
+    margin: 0;
+  }
+}

@@ -19,6 +19,10 @@
 
 @import url(../blocks/page/page.css);
 
+
+
+
+
 /*Slider*/
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__container/slider__container.css);
@@ -63,6 +67,7 @@
 @import url(../blocks/our-team/__name/our-team__name.css);
 @import url(../blocks/our-team/__title/our-team__title.css);
 @import url(../blocks/our-team/__wrapper/our-team__wrapper.css);
+@import url(../blocks/our-team/__cards-list/our-team__cards-list.css);
 /*=============================================================================*/
 @import url(../blocks/publications/_our-team/publications__cards-list_type_our-team.css);
 
@@ -76,4 +81,15 @@
 @import url(../blocks/about-us/__title/about-us__title.css);
 @import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
 @import url(../blocks/publications/_about-us/publications__cards-list_type_about-us.css);
+@import url(../blocks/about-us/__container/about-us__container.css);
+@import url(../blocks/about-us/__cards-list/about-us__cards-list.css);
+@import url(../blocks/about-us/__pin/about-us__pin.css);
 /*================================================================================*/
+/*CarouselKar==========================================================================*/
+@import url(../blocks/carouselKar/carouselKar.css);
+@import url(../blocks/carouselKar/__button/carouselKar__button.css);
+@import url(../blocks/carouselKar/__track/carouselKar__track.css);
+@import url(../blocks/carouselKar/__arrow/carouselKar__arrow.css);
+@import url(../blocks/carouselKar/__pagination/carouselKar__pagination.css);
+@import url(../blocks/carouselKar/__button/_blue/carouselKar__button_background_blue.css);
+/*=====================================================================================*/

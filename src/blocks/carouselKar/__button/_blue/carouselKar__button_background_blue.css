@@ -1,0 +1,14 @@
+.carouselKar__button_background_blue {
+    background-color: #001337;
+}
+
+.carouselKar__button_background_blue:focus {
+    background-color: #009FAC;
+}
+
+
+@media all and (max-width:545px) {
+    .carouselKar__button_background_blue {
+        display: none;
+    }
+}

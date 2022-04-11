@@ -1,92 +1,263 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="pages/index.css" />
-    <title>Лаборатории ИТМО</title>
-  </head>
-  <body>
-    <div class="page">
-      <header class="header"></header>
-      <main class="content">
-        <section class="publications page__section page__section_type_slider">
-          <h2 class="publications__title">Публикации</h2>
-          <!-- Slider main container -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="pages/index.css" />
+  <title>Лаборатории ИТМО</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header"></header>
+    <main class="content">
+      <section class="about-us">
+        <div class="about-us__container">
+          <h2 class="about-us__title">несколько слов о нас</h2>
+          <p class="about-us__subtitle">Национальный центр когнитивных разработок – центр национальной технологической
+            инициативы
+            (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные
+            технологии».</p>
+          <div class="carouselKar">
+            <button class="carouselKar__button carouselKar__button_background_blue" name="prev">
+              <img src="./images/our-team/arrow-down.png" class="carouselKar__arrow">
+            </button>
+            <div class="carouselKar__track">
+              <ul class="about-us__cards-list">
+
+                <!-- <li class="about-us__card">
+                  <p class="about-us__date">Понедельник, 5 июля 2021г</p>
+                  <h4 class="about-us__name">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Университет ИТМО провел научно-исследовательскую стажировку для
+                    группы
+                    магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели в
+                    течение десяти дней рассказывали им об основах машинного обучения. </p>
+                </li>
+
+                <li class="about-us__card">
+                  <p class="about-us__date">Понедельник, 5 июля 2021г</p>
+                  <h4 class="about-us__name">АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех
+                    ребятам принес Роберт Роботецкий — робот-виртуоз, исполнивший знаменитый французский романс «Под
+                    небом
+                    Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
+                </li>
+
+                <li class="about-us__card">
+                  <p class="about-us__date">Суббота, 3 июля 2021г</p>
+                  <h4 class="about-us__name">ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и
+                    прошлого года. Из-за эпидемиологической ситуации отменена развлекательная часть, но сохранилась
+                    торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.
+                  </p>
+                </li>
+
+                <li class="about-us__card">
+                  <p class="about-us__date">Пятница, 2 июля 2021г</p>
+                  <h4 class="about-us__name">«LEAVING THE DIGITAL» — ИЛИ КАК СОЕДИНИТЬ ЦИФРОВОЕ, ТЕХНОЛОГИЧЕСКОЕ И
+                    БИОЛОГ…
+                  </h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Преподаватели центра Art & Science Университета ИТМО провели открытый
+                    воркшоп, посвященный созданию произведений, объединяющих в себе биологическую и синтетическую среды.
+                    Серия занятий приурочена к приемной кампании в магистратуру центра.</p>
+                </li>
+
+                <li class="about-us__card">
+                  <p class="about-us__date">Пятница, 2 июля 2021г</p>
+                  <h4 class="about-us__name">В ИТМО ЗАПУСКАЕТСЯ ПЕРВАЯ ПРОЕТНАЯ МАГИСТРАТУРА — ДЛЯ АБИТУРИЕНТОВ
+                    ФАКУЛЬТЕТА
+                    П…</h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Особенность нового формата магистратуры в том, что студенты смогут
+                    составлять программу своего обучения, выбирать только те курсы, которые им интересны, а главное —
+                    работать над технологически сложным проектом под руководством менторов из топовых IT-компаний.</p>
+                </li>
+                <li class="about-us__card">
+                  <p class="about-us__date">Пятница, 2 июля 2021г</p>
+                  <h4 class="about-us__name">КОГДА НЕ ЗАНИМАЕШЬСЯ СВОИМ ОБРАЗОВАНИЕМ, МОЖНО ПРИЙТИ К СОТСТОЯНИ…</h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Владислав Танков поступил в ИТМО будучи специалистом в компании
+                    JetBrains. На одном из хакатонов в рамках программы с JetBrains он сделал плагин для проверки
+                    грамотности текстов в среде разработки IntelliJ IDEA. После окончания магистратуры Владислав
+                    возглавил
+                    команду разработки.</p>
+                </li>
+                <li class="about-us__card">
+                  <p class="about-us__date">Четверг, 1 июля 2021г</p>
+                  <h4 class="about-us__name">СТУДЕНТЫ ИТМО И ВЫПУСКНИКИ ЛЭТИ РАЗРАБОТАЛИ МОДУЛЬ ДЛЯ БЫ…</h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Интеллектуальный модуль для станций зарядки позволяет заряжать
+                    накопители в электрокарах и электросамокатах быстрее, чем при питании от сети. Программное
+                    обеспечение
+                    модуля обеспечивает защиту в случае аварийных ситуаций и повышает эффективность всего зарядного
+                    устройства.</p>
+                </li>
+                <li class="about-us__card">
+                  <p class="about-us__date">Четверг, 1 июля 2021г</p>
+                  <h4 class="about-us__name">КАКИЕ СУЩЕСТВУЮТ ВАКЦИНЫ, КАК ИХ ИСПЫТЫВАЮТ, И ПО КАКИМ ПРИНЦЫПАМ ИХ СЛЕДУ…
+                  </h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Вакцинация от коронавируса стала одной из главных тем. Весь мир
+                    следит
+                    за количеством привитых. Прививочная кампания дает результат — снижается смертность, количество
+                    госпитализаций. Но вокруг вакцинации остается много мифов, которые вызывают у скептиков споры.</p>
+                </li>
+                <li class="about-us__card">
+                  <p class="about-us__date">Среда, 30 июня 2021г</p>
+                  <h4 class="about-us__name">УНИВЕРСИТЕТ ИТМО ЗАПУСКАЕТ НОВУЮ КОРПОРАТИВНУЮ СПЕЦИАЛИЗАЦИЮ В МАГИСТРА…
+                  </h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">Партнером нового направления станет Napoleon IT. Сотрудники компании
+                    и
+                    преподаватели ИТМО будут готовить магистров, которые смогут работать в проектах, связанных с
+                    распознаванием лиц, технологиями deepfake, созданием приложений для распознавания предметов.</p>
+                </li>
+                <li class="about-us__card">
+                  <p class="about-us__date">Среда, 30 июня 2021г</p>
+                  <h4 class="about-us__name">СТУДЕНТКА И СОТРУДНИЦА ИТМО АННА ВОЛОШИНА ПОЛУЧИЛА БРОНЗОВОГО СФИН...</h4>
+                  <div class="about-us__line"></div>
+                  <p class="about-us__description">В Петропавловской крепости состоялась торжественная церемония
+                    вручения
+                    наград лучшим выпускникам Санкт-Петербурга. Среди тех, кто получил памятную статуэтку, была
+                    выпускница
+                    факультета технологического менеджмента и инноваций Анна Волошина. </p>
+                </li> -->
+              </ul>
+            </div>
+            <button class="carouselKar__button carouselKar__button_background_blue" name="next"
+              class="carouselKar__arrow"><img src="./images/our-team/arrow-right.png"></button>
+          </div>
+          <div class="carouselKar__pagination">
+          </div>
+        </div>
+
+      </section>
+      <section class="publications page__section page__section_type_slider">
+        <h2 class="publications__title">Публикации</h2>
+        <!-- Slider main container -->
+        <div class="slider">
+          <div class="swiper slider__container">
+            <!-- Additional required wrapper -->
+            <ul class="swiper-wrapper slider__cards-list slider__cards-list_type_publications">
+              <!-- Slides -->
+            </ul>
+          </div>
+          <div
+            class="slider__button slider__button_theme_light slider__button-next slider__button-next_theme_light slider__button-next_type_publications">
+          </div>
+          <div class="slider__pagination slider__pagination_section_publications slider__pagination_theme_light"></div>
+          <div
+            class="slider__button slider__button_theme_light slider__button-prev slider__button-prev_theme_light slider__button-prev_type_publications">
+          </div>
+        </div>
+      </section>
+
+      <section class="our-team">
+        <div class="our-team__container">
+          <h3 class="our-team__title">НАША КОМАНДА</h3>
+          <!-- <div class="carouselKar">
+            <button class="carouselKar__button carouselKar__button_background_blue" name="prev">
+              <img src="./images/our-team/arrow-down.png" class="carouselKar__arrow">
+            </button>
+            <div class="carouselKar__track">
+              <ul class="our-team__cards-list">
+              </ul>
+            </div>
+            <button class="carouselKar__button carouselKar__button_background_blue" name="next"
+              class="carouselKar__arrow"><img src="./images/our-team/arrow-right.png"></button>
+          </div>
+          <div class="carouselKar__pagination"></div>
+        </div> -->
+
           <div class="slider">
             <div class="swiper slider__container">
               <!-- Additional required wrapper -->
-              <ul
-                class="swiper-wrapper slider__cards-list slider__cards-list_type_publications"
-              >
+              <ul class="swiper-wrapper slider__cards-list our-team__cards-list">
                 <!-- Slides -->
               </ul>
             </div>
             <div
-              class="slider__button slider__button_theme_light slider__button-next slider__button-next_theme_light slider__button-next_type_publications"
-            ></div>
+              class="slider__button slider__button_theme_light slider__button-prev slider__button-prev_theme_light slider__button-next_type_ourTeam">
+            </div>
+            <div class="slider__pagination slider__pagination_section_our slider__pagination_theme_light">
+            </div>
             <div
-              class="slider__pagination slider__pagination_section_publications slider__pagination_theme_light"
-            ></div>
-            <div
-              class="slider__button slider__button_theme_light slider__button-prev slider__button-prev_theme_light slider__button-prev_type_publications"
-            ></div>
+              class="slider__button slider__button_theme_light slider__button-prev slider__button-prev_theme_light slider__button-prev_type_ourTeam">
+            </div>
           </div>
-        </section>
-      </main>
-      <footer class="footer"></footer>
-    </div>
-    <template id="publications-card">
-      <li class="swiper-slide publications-card">
-        <div class="publications-card__info">
-          <img
-            class="publications-card__image"
-            src="images/publications/1.png"
-            alt=""
-          />
-          <div class="publications-card__text-block">
-            <h3 class="publications-card__title">
-            </h3>
-            <p class="publications-card__subtitle">
-            </p>
-            <p class="publications-card__text">
-            </p>
-          </div>
+      </section>
+
+    </main>
+    <footer class="footer"></footer>
+  </div>
+  <template id="publications-card">
+    <li class="swiper-slide publications-card">
+      <div class="publications-card__info">
+        <img class="publications-card__image" src="images/publications/1.png" alt="" />
+        <div class="publications-card__text-block">
+          <h3 class="publications-card__title">
+          </h3>
+          <p class="publications-card__subtitle">
+          </p>
+          <p class="publications-card__text">
+          </p>
         </div>
-        <div class="publications-card__readAndShare">
-          <a
-            class="publications-card__link publications-card__link_type_read-more"
-            href="#"
-            >Читать полностью
-            <img
-              class="publications-card__link-read-img"
-              src="images/publications/publications_arrow-right.svg"
-              alt="Стрелка вправо"
-            />
-          </a>
-          <a
-            class="publications-card__link publications-card__link_type_sm-share"
-            href="#"
-          >
-            <img
-              src="images/publications/publication_button_share.svg"
-              alt="Поделиться"
-            />
-          </a>
-        </div>
-        <div
-          class="ya-share2"
-          data-bare
-          data-curtain
-          data-services="vkontakte,messenger,telegram,odnoklassniki,whatsapp"
-        ></div>
-      </li>
-    </template>
-    <script src="https://yastatic.net/share2/share.js" async></script>
-    <script type="module" src="./pages/index.js"></script>
-  </body>
+      </div>
+      <div class="publications-card__readAndShare">
+        <a class="publications-card__link publications-card__link_type_read-more" href="#">Читать полностью
+          <img class="publications-card__link-read-img" src="images/publications/publications_arrow-right.svg"
+            alt="Стрелка вправо" />
+        </a>
+        <a class="publications-card__link publications-card__link_type_sm-share" href="#">
+          <img src="images/publications/publication_button_share.svg" alt="Поделиться" />
+        </a>
+      </div>
+      <div class="ya-share2" data-bare data-curtain data-services="vkontakte,messenger,telegram,odnoklassniki,whatsapp">
+      </div>
+    </li>
+  </template>
+  <template class="template-our-team">
+    <li class="swiper-slide our-team__card">
+      <img src="#" alt="" class="our-team__image">
+      <h4 class="our-team__name"></h4>
+      <p class="our-team__description"></p>
+    </li>
+  </template>
+  <template class="template-about-us">
+    <li class="about-us__card">
+      <p class="about-us__date"></p>
+      <h4 class="about-us__name"></h4>
+      <div class="about-us__line"></div>
+      <p class="about-us__description"></p>
+      <img src="./images/pin.png" alt="pin" class="about-us__pin">
+    </li>
+  </template>
+  <script src="https://yastatic.net/share2/share.js" async></script>
+  <script type="module" src="./pages/index.js"></script>
+</body>
+
 </html>
+
+<!-- <section class="our-team">
+  <div class="our-team__container">
+    <h3 class="our-team__title">НАША КОМАНДА</h3>
+    <div class="carouselKar">
+      <button class="carouselKar__button carouselKar__button_background_blue" name="prev">
+        <img src="./images/our-team/arrow-down.png" class="carouselKar__arrow">
+      </button>
+      <div class="carouselKar__track">
+        <ul class="our-team__cards-list">
+        </ul>
+      </div>
+      <button class="carouselKar__button carouselKar__button_background_blue" name="next"
+        class="carouselKar__arrow"><img src="./images/our-team/arrow-right.png"></button>
+    </div>
+    <div class="carouselKar__pagination"></div>
+  </div>
+</section> -->
