@@ -17,21 +17,18 @@
   }
 }
 
-/*@media screen and (max-width: 1024px) {
-  .lead__container {
-    padding-right: 0;
-    padding-left: 40px;
-    padding-top: 58px;
-  }
-}*/
-
 @media screen and (max-width: 769px) {
   .lead__container {
     max-width: 288px;
-    padding-left: 16px;
+    padding-left: 40px;
     padding-top: 30px;
     transform: scale(-1, 1)
   }
 }
 
+@media screen and (max-width: 425px) {
+  .lead__container{
+    padding-left: 16px;
+  }
+}
  

@@ -19,8 +19,14 @@
 @media screen and (max-width: 769px) {
   .header {
     height: 44px;
-    padding: 0 16px;
+    padding: 0 40px;
     flex-direction: row-reverse;
     justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header{
+    padding: 0 16px;
   }
 }
