@@ -1,7 +1,24 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/swiper/swiper.css);
+
+/*Tooltip share*/
+@import url(../blocks/ya-share2/ya-share2.css);
+@import url(../blocks/ya-share2/_opened/ya-share2_opened.css);
+@import url(../blocks/ya-share2/__list/ya-share2__list.css);
+@import url(../blocks/ya-share2/__item/ya-share2__litem.css);
+@import url(../blocks/ya-share2/__link/ya-share2__link.css);
+@import url(../blocks/ya-share2/__link/_type/publications-card__link_type_sm-share.css);
+@import url(../blocks/ya-share2/__title/ya-share2__title.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_vkontakte.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_messenger.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_telegram.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_odnoklassniki.css);
+@import url(../blocks/ya-share2/__item/_service/ya-share2__item_service_whatsapp.css);
+
 @import url(../blocks/page/page.css);
+/*=============================================================================*/
 
 /*HEADER==================================================================*/
 @import url(../blocks/header/header.css);
@@ -18,6 +35,39 @@
 @import url(../blocks/header/__small-popup-item/header__small-popup-item.css);
 /*=============================================================================*/
 
+/*Slider*/
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/__cards-list/slider__cards-list.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_theme/slider__button_theme_light.css);
+@import url(../blocks/slider/__button/_theme/slider__button_theme_dark.css);
+@import url(../blocks/slider/__button-next/slider__button-next.css);
+@import url(../blocks/slider/__button-prev/slider__button-prev.css);
+@import url(../blocks/slider/__button-next/_theme/slider__button-next_theme_light.css);
+@import url(../blocks/slider/__button-prev/_theme/slider__button-prev_theme_light.css);
+@import url(../blocks/slider/__button-next/_theme/slider__button-next_theme_dark.css);
+@import url(../blocks/slider/__button-prev/_theme/slider__button-prev_theme_dark.css);
+@import url(../blocks/slider/__pagination/slider__pagination.css);
+@import url(../blocks/slider/__pagination/_theme/slider__pagination_theme_light.css);
+@import url(../blocks/slider/__pagination/_theme/slider__pagination_theme_dark.css);
+/*=============================================================================*/
+
+/*Publication section*/
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__title/publications__title.css);
+@import url(../blocks/publications-card/publications-card.css);
+@import url(../blocks/publications-card/__info/publications-card__info.css);
+@import url(../blocks/publications-card/__text-block/publications-card__text-block.css);
+@import url(../blocks/publications-card/__image/publications-card__image.css);
+@import url(../blocks/publications-card/__title/publications-card__title.css);
+@import url(../blocks/publications-card/__subtitle/publications-card__subtitle.css);
+@import url(../blocks/publications-card/__text/publications-card__text.css);
+@import url(../blocks/publications-card/__readAndShare/publications-card__readAndShare.css);
+@import url(../blocks/publications-card/__link/publications-card__link.css);
+@import url(../blocks/publications-card/__link-read-img/publications-card__link-read-img.css);
+/*=============================================================================*/
+
 /*HEADER-POPUP==================================================================*/
 @import url(../blocks/header-popup/header-popup.css);
 @import url(../blocks/header-popup/__container/header-popup__container.css);
@@ -26,6 +76,7 @@
 @import url(../blocks/header-popup/__close/header-popup__close.css);
 @import url(../blocks/header-popup/__menu/header-popup__menu.css);
 @import url(../blocks/header-popup/__block/header-popup__block.css);
+@import url(../blocks/header-popup/__menu-item/header-popup__menu-item.css);
 @import url(../blocks/header-popup/__item/header-popup__item.css);
 @import url(../blocks/header-popup/__menu-container/header-popup__menu-container.css);
 /*=============================================================================*/
@@ -39,3 +90,25 @@
 @import url(../blocks/lead/__span-accent/lead__span-accent.css);
 @import url(../blocks/lead/__button/lead__button.css);
 /*=============================================================================*/
+
+/*Footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_contact-info.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_about-us.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_evolution.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-links/type/footer__column-links_type_social.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__copyright-heading/footer__copyright-heading.css);
+@import url(../blocks/footer/__address-city/footer__address-city.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact-address/footer__contact-address.css);
+@import url(../blocks/footer/__contact-phone/footer__contact-phone.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-link-icon/footer__social-link-icon.css);
+/*================================================================================*/

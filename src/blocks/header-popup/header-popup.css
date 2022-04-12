@@ -16,5 +16,6 @@
   display: flex;
   transition: all 0.4s;
   visibility: hidden;
+  z-index: 3;
   }
 }

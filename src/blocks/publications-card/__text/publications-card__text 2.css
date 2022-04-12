@@ -1,0 +1,9 @@
+.publications-card__text {
+  font-size: 14px;
+  line-height: 19px;
+  margin: 20px 0 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}

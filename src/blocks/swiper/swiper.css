@@ -1,0 +1,10 @@
+/*Переопределяем дефолтные стили, пришедшие из swiper*/
+.swiper-backface-hidden .swiper-slide {
+  transform: none;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 6px;
+}
+
+

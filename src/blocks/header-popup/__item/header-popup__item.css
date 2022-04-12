@@ -1,4 +1,4 @@
-.header-popup__item {
+/*.header-popup__item {
   font-size: 14px;
   line-height: 19px;
   font-weight: 400;
@@ -10,4 +10,5 @@
 
 .header-popup__item:hover{
   font-weight: 600;
-}
+  opacity: 1;
+}*/

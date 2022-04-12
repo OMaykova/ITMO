@@ -1,0 +1,23 @@
+.footer {
+  background-color: #001337;
+  /*min-height: 578px;*/
+  box-sizing: border-box;
+  padding: 80px 0;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 900px)  {
+  .footer {
+    padding: 60px 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 680px)  {
+  .footer {
+    padding: 40px 0 33px;
+  }
+}

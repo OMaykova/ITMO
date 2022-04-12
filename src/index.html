@@ -1,81 +1,241 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="pages/index.css" />
-  <title>Лаборатории ИТМО</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Лаборатории ИТМО</title>
+  </head>
 
-<body>
-  <div class="page">
+  <body>
 
-    <header class="header">
-      <img class="header__logo" src="./images/header/Logo_AI 1.svg" alt="Логотип лаборатории ИТМО.">
+    <div class="page">
 
-      <nav class="header__nav">
+      <header class="header">
+        <img class="header__logo" src="./images/header/Logo_AI 1.svg" alt="Логотип лаборатории ИТМО.">
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__item header__item_active"><a href="#" target="_blank" class="header__link">О нас</a></li>
+            <li class="header__item"><a href="#" target="_blank" class="header__link">Лаборатория</a></li>
+            <li class="header__item"><a href="#" target="_blank" class="header__link">Проекты</a></li>
+            <li class="header__item header__item_education" id="education"><a target="_blank" class="header__link">Образование</a>
+              <ul class='header__small-popup'>
+                <li class="header__small-popup-item"><a href="#" target="_blank" class="header__link">Аспирантура</a></li>
+                <li class="header__small-popup-item"><a href="#" target="_blank" class="header__link">Магистратура</a></li>
+              </ul>
+            </li>
+            <li class="header__item"><a href="#" target="_blank" class="header__link">Публикации</a></li>
+            <li class="header__item"><a href="#" target="_blank" class="header__link">Команда</a></li>
+            <li class="header__item"><a href="#" target="_blank" class="header__link">Связаться</a></li>
+          </ul>
+          <button class="header__burger" type="button"></button>
+        </nav>
+      </header>
 
-        <ul class="header__menu">
-          <li class="header__item header__item_active"><a href="#" target="_blank" class="header__link">О нас</a></li>
-          <li class="header__item"><a href="#" target="_blank" class="header__link">Лаборатория</a></li>
-          <li class="header__item"><a href="#" target="_blank" class="header__link">Проекты</a></li>
-          <li class="header__item header__item_education" id="education"><a target="_blank" class="header__link">Образование</a>
-            <ul class='header__small-popup'>
-              <li class="header__small-popup-item"><a href="#" target="_blank" class="header__link">Аспирантура</a></li>
-              <li class="header__small-popup-item"><a href="#" target="_blank" class="header__link">Магистратура</a></li>
+      <main class="content">
+
+        <section class="lead">
+          <div class='lead__background'>
+            <div class="lead__container">
+              <h1 class='lead__title'>Когнитивные технологии,<wbr/><span class="lead__span-accent">машинное обучение</span></h1>
+              <p class='lead__subtitle'>Системы&nbsp;прикладного&nbsp;искуственного<wbr/>интеллекта</p>
+              <button class="lead__button" type="button">Наши проекты</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="header-popup">
+          <div class="header-popup__container">
+            <div class="header-popup__block">
+              <img class="header-popup__logo" src="./images/header/Logo_AI 1.svg" alt="Логотип лаборатории ИТМО.">
+              <button class="header-popup__close" type="button"></button>
+            </div>
+            <ul class='list header-popup__menu'>
+              <li class="header-popup__item"><a href="#" target="_blank" class="header__link">О нас</a></li>
+              <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Лаборатория</a></li>
+              <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Проекты</a></li>
+              <li class="header-popup__item header-popup__item_education"><a target="_blank" class="header__link">Образование</a>
+                <ul class='header-popup__menu-container'>
+                  <li class="header-popup__menu-item"><a href="#" target="_blank" class="header__link">Аспирантура</a></li>
+                  <li class="header-popup__menu-item"><a href="#" target="_blank" class="header__link">Магистратура</a></li>
+                </ul>
+              </li>
+              <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Публикации</a></li>
+              <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Команда</a></li>
+              <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Связаться</a></li>
             </ul>
-          </li>
-          <li class="header__item"><a href="#" target="_blank" class="header__link">Публикации</a></li>
-          <li class="header__item"><a href="#" target="_blank" class="header__link">Команда</a></li>
-          <li class="header__item"><a href="#" target="_blank" class="header__link">Связаться</a></li>
-        </ul>
-        
-        <button class="header__burger" type="button"></button>
+          </div>
+        </section>
 
-      </nav>
-
-    </header>
-    
-    <main class="content">
-
-      <section class="lead">
-        <div class='lead__background'>
-          <div class="lead__container">
-            <h1 class='lead__title'>Когнитивные технологии,<wbr/><span class="lead__span-accent">машинное обучение</span></h1>
-            <p class='lead__subtitle'>Системы&nbsp;прикладного&nbsp;искуственного<wbr/>интеллекта</p>
-            <button class="lead__button" type="button">Наши проекты</button>
+        <section class="publications page__section page__section_type_slider">
+          <h2 class="publications__title">Публикации</h2>
+          <!-- Slider main container -->
+          <div class="slider">
+            <div id="swiper-publications" class="swiper slider__container">
+              <!-- Additional required wrapper -->
+              <ul
+                class="swiper-wrapper slider__cards-list slider__cards-list_type_publications"
+              >
+                <!-- Slides -->
+              </ul>
+            </div>
+            <div
+              class="slider__button slider__button_theme_light slider__button-next slider__button-next_theme_light slider__button-next_type_publications"
+            ></div>
+            <div
+              class="slider__pagination slider__pagination_section_publications slider__pagination_theme_light"
+            ></div>
+            <div
+              class="slider__button slider__button_theme_light slider__button-prev slider__button-prev_theme_light slider__button-prev_type_publications"
+            ></div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__columns">
+          <img class="footer__logo" src="images/footer/footer_logo.svg" alt="">
+          <h3 class="footer__copyright-heading">Информация © 2020 Университет ИТМО</h3>
+          <p class="footer__copyright-text">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии». Инфраструктурная основа взаимодействия научных, образовательных и промышленных организаций</p>
+          <div class="footer__column footer__column_content_about-us">
+            <h3 class="footer__column-heading">О центре</h3>
+            <nav class="footer__navigation">
+              <ul class="footer__column-links">
+                <li>
+                  <a class="footer__column-link" href="">О нас</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Главная</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Команда</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Лаборатория</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__column footer__column_content_evolution">
+            <h3 class="footer__column-heading">Развитие</h3>
+            <nav class="footer__navigation">
+              <ul class="footer__column-links">
+                <li>
+                  <a class="footer__column-link" href="">Образование</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Аспирантура</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Магистратура</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Публикации</a>
+                </li>
+                <li>
+                  <a class="footer__column-link" href="">Проекты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__column footer__column_content_contact-info">
+            <div class="footer__contacts">
+              <p class="footer__address-city">г.Санкт-Петербург</p>
+              <p class="footer__contact-address">199034, Санкт-Петербург, Биржевая&nbsp;линия,&nbsp;д.&nbsp;4,&nbsp;лит.&nbsp;М, ауд.&nbsp;302С</p>
+              <a class="footer__column-link footer__contact-phone" href="tel:+7 (812) 337-64-90">+7 (812) 337-64-90</a>
+              <a class="footer__column-link footer__contact-phone" href="tel:+7 (812) 337-64-94">+7 (812) 337-64-94</a>
+              <a class="footer__column-link" href="mailto:anna.lutsenko@itmo.ru">anna.lutsenko@itmo.ru</a>
+            </div>
+            <div class="footer__social-media">
+              <ul class="footer__column-links footer__column-links_type_social">
+                <li class="footer__column-link-item">
+                  <a class="footer__social-link" href="#">
+                    <img class="footer__social-link-icon" src="images/footer/footer_vk.svg" alt="вк">
+                  </a>
+                </li>
+                <li>
+                  <a class="footer__social-link" href="#">
+                    <img class="footer__social-link-icon" src="images/footer/footer_fb.svg" alt="фб">
+                  </a>
+                </li>
+                <li>
+                  <a class="footer__social-link" href="#">
+                    <img class="footer__social-link-icon" src="images/footer/footer_telegram.svg" alt="телеграм">
+                  </a>
+                </li>
+                <li>
+                  <a class="footer__social-link" href="#">
+                    <img class="footer__social-link-icon" src="images/footer/footer_instagram.svg" alt="инстаграм">
+                  </a>
+                </li>
+                <li>
+                  <a class="footer__social-link" href="#">
+                    <img class="footer__social-link-icon" src="images/footer/footer_youtube.svg" alt="ютуб">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__author">Сделано студентами Яндекс. Практикума</p>
+        </div>
+      </footer>
+    </div>
+    <template id="publications-card">
+      <li class="swiper-slide publications-card">
+        <div class="publications-card__info">
+          <img
+            class="publications-card__image"
+            src="images/publications/1.png"
+            alt=""
+          />
+          <div class="publications-card__text-block">
+            <h3 class="publications-card__title">
+            </h3>
+            <p class="publications-card__subtitle">
+            </p>
+            <p class="publications-card__text">
+            </p>
           </div>
         </div>
-      </section>
-
-    </main>
-
-    <section class="header-popup">
-      <div class="header-popup__container">
-        <div class="header-popup__block">
-          <img class="header-popup__logo" src="./images/header/Logo_AI 1.svg" alt="Логотип лаборатории ИТМО.">
-          <button class="header-popup__close" type="button"></button>
+        <div class="publications-card__readAndShare">
+          <a
+            class="publications-card__link publications-card__link_type_read-more"
+            href="#"
+            >Читать полностью
+            <img
+              class="publications-card__link-read-img"
+              src="images/publications/publications_arrow-right.svg"
+              alt="Стрелка вправо"
+            />
+          </a>
+          <a
+            class="publications-card__link publications-card__link_type_sm-share"
+            href="#"
+          >
+            <img
+              src="images/publications/publication_button_share.svg"
+              alt="Поделиться"
+            />
+          </a>
         </div>
-        <ul class='header-popup__menu'>
-          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">О нас</a></li>
-          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Лаборатория</a></li>
-          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Проекты</a></li>
-          <li class="header-popup__item"><a target="_blank" class="header__link">Образование</a>
-            <ul class='header-popup__menu-container'>
-              <li class="header-popup__menu-item"><a href="#" target="_blank" class="header__link">Аспирантура</a></li>
-              <li class="header-popup__menu-item"><a href="#" target="_blank" class="header__link">Магистратура</a></li>
-            </ul>
-          </li>
-          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Публикации</a></li>
-          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Команда</a></li>
-          <li class="header-popup__item"><a href="#" target="_blank" class="header__link">Связаться</a></li>
-        </ul>
-      </div>
-    </section>
-
-  </div>
-  <script src="./pages/header.js"></script>
-</body>
-
+        <div
+          class="ya-share2"
+          data-bare
+          data-curtain
+          data-services="vkontakte,messenger,telegram,odnoklassniki,whatsapp"
+        ></div>
+      </li>
+    </template>
+    <script src="https://yastatic.net/share2/share.js" async></script>
+    <script type="module" src="./pages/index.js"></script>
+    <script src="./pages/header.js"></script>
+  </body>
 </html>
+

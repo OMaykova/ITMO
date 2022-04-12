@@ -1,0 +1,25 @@
+.slider__button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 44%;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 4px 20px rgba(1, 54, 157, 0.15);
+  transition: background-color 1s;
+  z-index: 10;
+}
+
+.slider__button:hover {
+  background-color: #009FAC;
+}
+
+@media screen and (max-width: 1280px) {
+  .slider__button {
+    display: none;
+  }
+}

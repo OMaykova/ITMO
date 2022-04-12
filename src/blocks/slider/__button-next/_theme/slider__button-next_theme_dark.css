@@ -1,0 +1,7 @@
+.slider__button-next_theme_dark {
+  background-image: url("/src/images/slider_arrows/slider_arrow-right_light.svg");
+}
+
+.slider__button-next_theme_dark:hover {
+  background-image: url("/src/images/slider_arrows/slider_arrow-right_light.svg");
+}
