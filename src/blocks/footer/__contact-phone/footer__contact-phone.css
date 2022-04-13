@@ -1,0 +1,7 @@
+.footer__contact-phone {
+  margin: 0 0 12px;
+}
+
+.footer__contact-phone:first-of-type {
+  margin-bottom: 0;
+}

@@ -41,7 +41,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lab-card {
     width: 150px;
     height: 242px;
@@ -49,7 +49,7 @@
     box-shadow: 0px 2px 12px 0px #01369D26;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .lab-card {
     width: 140px;
     height: 224px;

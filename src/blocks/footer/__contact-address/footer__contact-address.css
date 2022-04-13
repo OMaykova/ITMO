@@ -1,0 +1,15 @@
+.footer__contact-address {
+  margin: 0 0 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__contact-address {
+    max-width: 170px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__contact-address {
+    max-width: 270px;
+  }
+}

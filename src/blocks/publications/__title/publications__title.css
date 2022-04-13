@@ -1,0 +1,24 @@
+.publications__title {
+  font-size: 36px;
+  line-height: 1.89;
+  letter-spacing: .1px;
+  color: #001337;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .publications__title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .publications__title {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 20px;
+  }
+}

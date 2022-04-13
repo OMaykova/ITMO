@@ -1,6 +1,6 @@
 .lab__photo {
-  max-width: 264px;
-  max-height: 276px;
+  /* max-width: 264px; */
+  /* max-height: 276px; */
   border-radius: 10px;
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@
 .lab__photo:last-child {
  margin-left: 7px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1350px) {
   .lab__photo:nth-child(1) {
     display: none;
   }

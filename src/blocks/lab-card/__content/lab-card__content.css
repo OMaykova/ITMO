@@ -2,13 +2,13 @@
   padding: 30px 20px 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lab-card__content {
     padding: 12px;
   }
 
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .lab-card__content {
     padding: 10px;
   }

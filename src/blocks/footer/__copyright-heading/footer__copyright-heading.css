@@ -1,0 +1,21 @@
+.footer__copyright-heading {
+  font-weight: 400;
+  margin: 0 0 30px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__copyright-heading {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__copyright-heading {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 0;
+  }
+}

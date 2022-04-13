@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: end;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .lab__photos {
   order: 1;
   width: 100%;
