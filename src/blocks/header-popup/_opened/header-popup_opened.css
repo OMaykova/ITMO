@@ -4,9 +4,9 @@
 
 @media screen and (max-width: 769px) {
     .header-popup_opened {
-        opacity: 1;
-        visibility: visible;
-        transition: opacity 0.4s;
-        display: flex;
+      opacity: 1;
+      visibility: visible;
+      transition: opacity 0.4s;
+      display: flex;
     }
   }

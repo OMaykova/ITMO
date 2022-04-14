@@ -1,9 +1,9 @@
 .header-popup__menu-container {
-    display: none;
-    padding: 0;
-    list-style: none;
+  display: none;
+  padding: 0;
+  list-style: none;
 }
 
 .header-popup__menu-container_active{
-    display: block;
+  display: block;
 }

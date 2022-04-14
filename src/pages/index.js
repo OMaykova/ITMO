@@ -1,6 +1,7 @@
-import { publicationCardData } from "../utils/constants.js";
+import { publicationCardData,headerMenuButton,menuItems,childMenuItem,smallHeaderPopupButton,smallMenuPopup} from "../utils/constants.js";
 import { PublicationCard } from "../components/PublicationCard.js";
 import { Section } from "../components/Section.js";
+import { HeaderPopups } from "../components/HeaderPopups.js";
 
 // import Swiper bundle with all modules installed
 import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
@@ -78,3 +79,38 @@ const publicationSwiperSettings = {
 };
 new Swiper("#swiper-publications", publicationSwiperSettings);
 
+/*Header*/
+const menuPopup = new HeaderPopups('.header-popup');
+const smallPopup = new HeaderPopups('.header__small-popup');
+
+menuPopup.setEventListeners();
+
+headerMenuButton.addEventListener('click', () => { 
+    menuPopup.open()
+}); 
+
+smallHeaderPopupButton.addEventListener('click', e => {
+  e.stopPropagation();
+  smallPopup.togglePopup();
+});
+
+document.addEventListener('click', e => {
+  const target = e.target;
+  const its_smallMenuPopup = target == smallMenuPopup || smallMenuPopup.contains(target);
+  const its_smallHeaderPopupButton = target == smallHeaderPopupButton;
+  const smallMenuPopup_is_active = smallMenuPopup.classList.contains('header__small-popup_active');
+  
+  if (!its_smallMenuPopup && !its_smallHeaderPopupButton && smallMenuPopup_is_active) {
+    smallPopup.togglePopup();
+  }
+})
+
+//так открывается подменю-аккордеон на малых разрешениях 
+menuItems.forEach((item) => item.addEventListener('click', () => {
+    if (item.classList.contains('header-popup__item_education')) {
+      childMenuItem.classList.toggle('header-popup__menu-container_active')
+    } else {
+      childMenuItem.classList.remove('header-popup__menu-container_active');
+    }
+}))
+/*Header ending*/

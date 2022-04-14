@@ -82,3 +82,9 @@ const publicationCardData = [
 ];
 
 export { publicationCardData };
+
+export const headerMenuButton = document.querySelector('.header__burger');
+export const menuItems = document.querySelectorAll('.header-popup__item');
+export const childMenuItem = document.querySelector('.header-popup__menu-container')
+export const smallHeaderPopupButton = document.querySelector('.header__item_education');
+export const smallMenuPopup = document.querySelector('.header__small-popup');
