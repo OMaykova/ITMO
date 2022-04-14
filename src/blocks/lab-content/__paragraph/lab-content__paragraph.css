@@ -1,0 +1,19 @@
+.lab-content__paragraph {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #000D26;
+}
+.lab-content__paragraph:last-child {
+  padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .lab-content__paragraph {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

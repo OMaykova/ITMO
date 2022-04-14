@@ -1,0 +1,12 @@
+.popup-lab__close-button {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 20.5px;
+  right: 20px;
+  cursor: pointer;
+  border-style: none;
+  background-color: rgb(255, 255, 255);
+  background: transparent;
+  background-image: url(../../../images/lab/close.svg);
+}

@@ -1,0 +1,12 @@
+.lab-content {
+  display: block;
+  position: relative;
+  width: 48%;
+}
+@media screen and (max-width: 500px) {
+  .lab-content {
+    order: 2;
+    width: 100%;
+  }
+
+}

@@ -1,7 +1,23 @@
 import { publicationCardData,headerMenuButton,menuItems,childMenuItem,smallHeaderPopupButton,smallMenuPopup} from "../utils/constants.js";
+import { Popup } from "../scripts/components/Popup.js";
 import { PublicationCard } from "../components/PublicationCard.js";
 import { Section } from "../components/Section.js";
 import { HeaderPopups } from "../components/HeaderPopups.js";
+
+//lab
+const cardButtons = document.querySelectorAll('.lab-card__button');
+
+const popupLab = new Popup('.popup-lab');
+
+function handleCardButton() {
+  popupLab.open()
+}
+
+popupLab.setEventListener();
+cardButtons.forEach((btn) => {
+btn.addEventListener('click', () => {handleCardButton()})
+});
+//lab ending
 
 // import Swiper bundle with all modules installed
 import Swiper from "https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js";
@@ -61,7 +77,7 @@ const publicationSwiperSettings = {
       spaceBetween: 8,
       slidesOffsetBefore: 0,
       slidesOffsetAfter: 0,
-      centeredSlides: true,      
+      centeredSlides: true,
     },
   },
 

@@ -53,6 +53,34 @@
 @import url(../blocks/slider/__pagination/_theme/slider__pagination_theme_dark.css);
 /*=============================================================================*/
 
+/*LAB==========================================================================*/
+@import url(../blocks/lab/lab.css);
+@import url(../blocks/lab-content/lab-content.css);
+@import url(../blocks/lab/__title/lab__title.css);
+@import url(../blocks/lab-grid/lab-grid.css);
+@import url(../blocks/lab-content/__paragraph/lab-content__paragraph.css);
+@import url(../blocks/lab-content/__paragraph/_type/_bold/lab-content__paragraph_type_bold.css);
+@import url(../blocks/lab/__photo/lab__photo.css);
+@import url(../blocks/lab/__cards/lab__cards.css);
+@import url(../blocks/lab-card/lab-card.css);
+@import url(../blocks/lab-card/__content/lab-card__content.css);
+@import url(../blocks/lab-card/__title/lab-card__title.css);
+@import url(../blocks/lab-card/__icon/lab-card__icon.css);
+@import url(../blocks/lab-card/_paragraph/lab-card__paragraph.css);
+@import url(../blocks/lab-card/__button/lab-card__button.css);
+@import url(../blocks/popup-lab/popup-lab.css);
+@import url(../blocks/popup-lab/__container/popup-lab__container.css);
+@import url(../blocks/popup-lab/__image/popup-lab__image.css);
+@import url(../blocks/popup-lab/__list-item/popup-lab__list-item.css);
+@import url(../blocks/popup-lab/__list/popup-lab__list.css);
+@import url(../blocks/popup-lab/__paragraph/popup-lab__paragraph.css);
+@import url(../blocks/popup-lab/__title/popup-lab__title.css);
+@import url(../blocks/popup-lab/__close-button/popup-lab__close-button.css);
+@import url(../blocks/publications/_our-team/publications__cards-list_type_our-team.css);
+@import url(../blocks/lab/__molecule/lab__molecule.css);
+@import url(../blocks//lab-card/__vector/lab-card__vector.css);
+@import url(../blocks/lab-grid/__container/lab-grid__container.css);
+@import url(../blocks/popup-lab/_opened/popup-lab_opened.css);
 /*Publication section*/
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publications/__title/publications__title.css);
