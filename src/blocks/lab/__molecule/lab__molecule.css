@@ -1,0 +1,13 @@
+.lab__molecule {
+  width: 24px;
+  height: 22.56px;
+  background-image: url(../../../images/lab/molecule.svg);
+  position: absolute;
+  top: 50%;
+  left: -36px;
+}
+@media screen and (max-width: 768px) {
+  .lab__molecule {
+  display: none;
+  }
+}

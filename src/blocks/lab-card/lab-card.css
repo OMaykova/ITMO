@@ -1,0 +1,71 @@
+.lab-card {
+  width: 255px;
+  height: 430px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px 0px #01369D26;
+  background-image: linear-gradient(180deg,#FFFFFF 0%, #FFFFFF 100%), url(../../images/lab/Project1.svg);
+  background-blend-mode: overlay;
+  margin-right: 30px;
+  transition: transform .5s ease-in-out;
+  color: #001337;
+}
+.lab-card:last-child {
+  margin-right: 0;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%), url(../../images/lab/Robot.svg);
+}
+.lab-card:nth-child(2) {
+  background-image: linear-gradient(180deg,#FFFFFF 0%, #FFFFFF 100%), url(../../images/lab/Machine\ learning.svg);
+}
+.lab-card:nth-child(3) {
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%), url(../../images/lab/Data.svg);
+}
+.lab-card:last-child:hover {
+  background: linear-gradient(180deg, #009FAC 0%, #009FAC 100%), url(../../images/lab/Robot.svg);
+  transform: translate(0px, -20px) ;
+}
+.lab-card:nth-child(2):hover {
+  background: linear-gradient(180deg, #009FAC 0%, #009FAC 100%), url(../../images/lab/Machine\ learning.svg);
+  transform: translate(0px, -20px) ;
+}
+.lab-card:nth-child(3):hover {
+  background: linear-gradient(180deg, #009FAC 0%, #009FAC 100%), url(../../images/lab/Data.svg);
+  transform: translate(0px, -20px) ;
+}
+.lab-card:hover {
+  background: linear-gradient(180deg, #009FAC 0%, #009FAC 100%), url(../../images/lab/Project1.svg);
+  transform: translate(0px, -20px) ;
+  color: #FFFFFF
+}
+.lab-card:hover .lab-card__button {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .lab-card {
+    width: 150px;
+    height: 242px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 12px 0px #01369D26;
+  }
+}
+@media screen and (max-width: 500px) {
+  .lab-card {
+    width: 140px;
+    height: 224px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 12px 0px #01369D26;
+  }
+  .lab-card:hover {
+    transform: none;
+  }
+  .lab-card:nth-child(2):hover {
+    transform: none;
+  }
+  .lab-card:nth-child(3):hover {
+    transform: none;
+  }
+  .lab-card:last-child:hover {
+    transform: none;
+  }
+}

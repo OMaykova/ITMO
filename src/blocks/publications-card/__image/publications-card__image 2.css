@@ -1,0 +1,7 @@
+.publications-card__image {
+  width: 310px;
+  height: 223px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: height .6s;
+}

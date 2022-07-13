@@ -1,0 +1,13 @@
+.popup-lab__paragraph {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 21.5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+}
+.popup-lab__paragraph:nth-last-child(3) {
+  margin-bottom: 0;
+}

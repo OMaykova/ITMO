@@ -1,0 +1,34 @@
+.lead__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  align-items: flex-start;
+  max-width: 445px;
+  padding-top: 92px;
+  padding-right: 165px;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1281px) {
+  .lead__container {
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .lead__container {
+    max-width: 288px;
+    padding-left: 40px;
+    padding-top: 30px;
+    transform: scale(-1, 1)
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__container{
+    padding-left: 16px;
+  }
+}
+ 

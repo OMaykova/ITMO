@@ -1,0 +1,13 @@
+.popup-lab {
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 13, 38, .6);
+  opacity: 0;
+  transition: 1s;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}

@@ -1,0 +1,25 @@
+.lab-card__title {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  min-height: 60px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+@media screen and (max-width: 1180px) {
+  .lab-card__title {
+    font-size: 12px;
+    line-height: 16px;
+    min-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lab-card__title {
+    font-size: 10px;
+    line-height: 14px;
+    min-height: 28px;
+  }
+}

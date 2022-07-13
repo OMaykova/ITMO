@@ -1,0 +1,19 @@
+.header-popup__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 492px;
+  background: #000D26;
+  padding: 14px 40px 0;
+  color: white;
+  font-family: 'Inter', Arial, sans-serif;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, .15);
+}
+
+@media screen and (max-width: 425px) {
+  .header-popup__container{
+    padding: 10px 16px 0;
+  }
+}

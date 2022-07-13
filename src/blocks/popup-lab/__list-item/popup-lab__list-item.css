@@ -1,0 +1,8 @@
+.popup-lab__list-item {
+  list-style: disc;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+}

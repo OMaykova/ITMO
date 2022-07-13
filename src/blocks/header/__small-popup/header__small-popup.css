@@ -1,0 +1,11 @@
+.header__small-popup{
+  position: absolute;
+  min-width: 120px;
+  min-height: 56px;
+  background-color:#000D26;
+  top: 55px;
+  left:-10px;
+  display: none;
+  padding: 0;
+}
+

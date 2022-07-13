@@ -1,0 +1,32 @@
+.lead__background{
+  width: 100%;
+  min-height: 670px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__background {
+    max-width: 1024px;
+    min-height: 648px;
+  }
+}
+  
+@media screen and (max-width: 769px) {
+  .lead__background {
+    max-width: 769px;
+    min-height: 414px;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__background{
+    display: block;
+  }
+}
