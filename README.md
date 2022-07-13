@@ -15,4 +15,4 @@
 - [Гилева Александра](https://github.com/agilyova);
 - [Ольга Майкова](https://github.com/Dolka84);
 - [Миколайчук Дарья](https://github.com/dashimiko);
-
+- [Алексей Карпов](https://github.com/lexKarpov);
