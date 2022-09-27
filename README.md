@@ -1,16 +1,16 @@
-# Лендинг для лаборатории ИТМО
-О проекте: Лаборатория входит в состав Национального центра когнитивных разработок и специализируется на выполнении разных промышленных задач на основе больших данных.
-Лендинг ориентирован на будущих студентов и его основная задача — привлечь новых студентов в магистратуру / аспирантуру. Поэтому основная задача — интересно рассказать о Лаборатории.
-Репозиторий для командной работы. 
+# Landing page for ITMO Laboratory
+About the project: The laboratory is part of the National Center for Cognitive Development and specializes in performing various industrial tasks based on big data.
+The landing page is aimed at future students and its main task is to attract new students to master's/ postgraduate studies. Therefore, the main task is to tell about the Laboratory in an interesting way.
+A repository for teamwork.
 
-[Онлайн версия](https://omaykova.github.io/ITMO/) итоговой работы команды
+[Site](https://omaykova.github.io/ITMO/) the final work of the team
 
-## Технологии
+## Technologies
 * HTML
 * CSS
 * JavaScript
 
-## Авторы
+## Authors
 - [Юрлова Виктория](https://github.com/yurlovaviktoriya);
 - [Гилева Александра](https://github.com/agilyova);
 - [Ольга Майкова](https://github.com/Dolka84);
